@@ -4,43 +4,18 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h2>Biography</h2>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p align="justify">I started studying Electrical Engineering in the Department of Electrical and Electronic Engineering at
+Universitas Gadjah Mada, Indonesia, as a bachelor student. During my study, I was involved in several research projects including battery-pack management system in the national project of electric car. After the project finished, I became the member of UAV research group. I was responsible for designing simple formation control algorithm using the well-known potential field method which, in the end of my study, also became part of my bachelor thesis. I have published several papers on IEEE and MEV Journal based on the result of the project I participated in.
+</p>
 
-<h2>Skills</h2>
+<p>After finishing my undergraduate study, I am currently pursue my doctoral degree in the field of control systems at The University of Manchester under the supervision of Professor Zhengtao Ding. I am doing a research on the coordination of robotic sensor networks. From this topic, I am designing distributed algorithms to solve the motion control, coverage control, and optimisation problems of a sensor network. In my study, to establish the swarm intelligence of multi-agent systems, the reinforcement learning paradigm and Kalman filtering method with consensus protocol are employed.</p>
 
-<ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
-</ul>
+<h2>Awards</h2>
 
-<h2>Projects</h2>
-
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
+<ul class="awards">
+	<li>First place in the Venture Out Research Category 2017</li>
+	<li>First place in the Indonesia Final of Imagine Cup 2018</li>
+	<li>Fourth place in the Asia Pasific Final of Imagine Cup 2018</li>
 </ul>
