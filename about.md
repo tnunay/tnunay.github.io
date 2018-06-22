@@ -22,10 +22,10 @@ Universitas Gadjah Mada, Indonesia, as a bachelor student. During my study, I wa
 </ul>
 
 ## Contact
-<p>For any further academic or business discussion can be done in my office at<br>
+<p>Office:<br>
 Room F1, Sackville Street Building,<br>
 The University of Manchester,<br>
 Sackville Street,<br>
 Manchester M1 3BB.<br>
-or, via email at ishakhiltonpt@gmail.com.
+Email: hilton.tnunay@manchester.ac.uk.
 </p>
