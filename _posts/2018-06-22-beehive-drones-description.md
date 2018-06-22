@@ -13,7 +13,7 @@ author: hiltontnunay
 externalLink: false
 ---
 
-![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png)
+![Screenshot](/assets/images/drone-beehive-drones.png)
 
 Lorem ipsum dolor sit amet.
 
