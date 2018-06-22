@@ -12,9 +12,9 @@ picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
-resume-external: true
-resume-url: https://google.com/?q=my+resume
+publication: true
+publication-external: true
+publication-url: https://scholar.google.co.uk/citations?user=5fn_JVIAAAAJ&hl=en
 
 url: https://tnunay.github.io
 # your url: http://USERNAME.github.io
@@ -76,6 +76,8 @@ projects: true
 # if you don't need "about" or "blog", comment them out below
 about: true
 blog: true
+article: true
+photo: true
 
 # do you want to show the "read time" of the posts?
 read-time: true

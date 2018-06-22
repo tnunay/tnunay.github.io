@@ -5,11 +5,19 @@
                 <a class="link" href="{{ site.url }}/">Home</a>
             </li>
         {% endif %}
-
-        {% if site.blog == true %}
-            {% if page.title != "Blog" %}
+        
+        {% if site.article == true %}
+            {% if page.title != "Articles" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/blog">Blog</a>
+                    <a class="link" href="{{ site.url }}/article">Articles</a>
+                </li>
+            {% endif %}
+        {% endif %}
+        
+        {% if site.photo == true %}
+            {% if page.title != "Photos" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/photo">Photos</a>
                 </li>
             {% endif %}
         {% endif %}
@@ -20,6 +28,12 @@
                     <a class="link" href="{{ site.url }}/projects">Projects</a>
                 </li>
             {% endif %}
+        {% endif %}     
+
+        {% if site.publication == true %}
+            <li class="item">
+                <a class="link" href="{% if site.publication-external %}{{ site.publication-url }}{% else %}{{ site.url }}/{{ site.publication-url }}{% endif %}">Publications</a>
+            </li>
         {% endif %}
 
         {% if site.about == true %}
@@ -28,12 +42,6 @@
                     <a class="link" href="{{ site.url }}/about">About</a>
                 </li>
             {% endif %}
-        {% endif %}
-
-        {% if site.resume == true %}
-            <li class="item">
-                <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}">Résumé</a>
-            </li>
-        {% endif %}
+        {% endif %}        
     </ul>
 </nav>
