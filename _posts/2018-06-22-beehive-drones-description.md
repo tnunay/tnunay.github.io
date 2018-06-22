@@ -1,5 +1,5 @@
 ---
-title: ":ramen: Beehive Drones: An IoT-based Swarm Drones Technology"
+title: "Beehive Drones: An IoT-based Swarm Drones Technology"
 layout: post
 date: 2018-06-22 12:10
 tag: Beehive Drones
