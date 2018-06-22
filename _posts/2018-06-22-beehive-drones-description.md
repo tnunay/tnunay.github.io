@@ -2,7 +2,7 @@
 title: "Beehive Drones: An IoT-based Swarm Drones Technology"
 layout: post
 date: 2018-06-22 12:10
-tag: Beehive Drones
+tag: beehivedrones
 image: https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png
 headerImage: false
 projects: true
