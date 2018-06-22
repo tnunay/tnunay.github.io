@@ -25,8 +25,7 @@ Universitas Gadjah Mada, Indonesia, as a bachelor student. During my study, I wa
 <p>Office:<br>
 Room F1, Sackville Street Building,<br>
 The University of Manchester,<br>
-Sackville Street,<br>
-Manchester M1 3BB.<br>
+Sackville Street, Manchester, M1 3BB.<br>
 <br>
 Email: <br>
 hilton.tnunay@manchester.ac.uk.
