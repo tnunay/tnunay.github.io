@@ -1,7 +1,7 @@
 ---
 title: "Initialisation"
 layout: post
-date: 2016-02-24 11:10
+date: 2018-06-22 11:10
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
