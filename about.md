@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
-PhD Candidate in Control Systems at The University of Manchester - Founder at Beehive Drones
+<p align="center"> PhD Candidate in Control Systems - Founder at Beehive Drones</p>
 
 ## Biography
 
@@ -27,5 +27,7 @@ Room F1, Sackville Street Building,<br>
 The University of Manchester,<br>
 Sackville Street,<br>
 Manchester M1 3BB.<br>
-Email: hilton.tnunay@manchester.ac.uk.
+<br>
+Email: <br>
+hilton.tnunay@manchester.ac.uk.
 </p>
