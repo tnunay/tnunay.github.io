@@ -9,7 +9,7 @@
         {% if site.blog == true %}
             {% if page.title != "Blog" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/post">Posts</a>
+                    <a class="link" href="{{ site.url }}/article">Posts</a>
                 </li>
             {% endif %}
         {% endif %}
@@ -24,7 +24,7 @@
 
         {% if site.publication == true %}
             <li class="item">
-                <a class="link" href="{% if site.publication-external %}{{ site.publication-url }}{% else %}{{ site.url }}/{{ site.publication-url }}{% endif %}">Publications</a>
+                <a class="link" href="{% if site.publication-external %}{{ site.publication-url }}{% else %}{{ site.url }}/{{ site.publication-url }}{% endif %}">Citations</a>
             </li>
         {% endif %}
 
