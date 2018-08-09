@@ -1,5 +1,5 @@
 ---
-title: "Learning from Nicodemus"
+title: "Belajar dari Nikodemus"
 layout: post
 date: 2018-06-22 14:15
 image: /assets/images/markdown.jpg
@@ -11,7 +11,7 @@ author: hiltontnunay
 description: Bible study from John 3:1-21.
 ---
 
-## Detailed Elaboration
+## Penjelasan
 
 <p align="justify">Ayat 1 : Nikodemus adalah seorang pemimpin agama Yahudi. Pada waktu itu, pemimpin agama Yahudi dan orang Farisi dianggap sebagai orang yang tidak mau percaya bahwa Yesus adalah anak Allah.
 </p>
@@ -56,7 +56,7 @@ description: Bible study from John 3:1-21.
 <p align="justify">Ayat 21 : Fenomena yang terjadi adalah, orang yang berada di dalam kegelapan, bisa melihat orang yang berada di dalam terang, namun tidak sebaliknya, ketika orang berada dalam terang, orang itu tidak dapat melihat orang yang berada di dalam gelap. Sehingga ketika kita sudah hidup di dalam terang, maka kita akan melakukan hal yang benar. Ketika orang mau hidup dalam kebenaran, maka orang itu akan melakukannya dalam Terang, karena tidak malu dengan hal yang dilakukannya itu. Selain itu supaya hal yang dilakukannya itu bisa menjadi kesaksian bagi orang lain baik yang sudah berada di dalam terang maupun yang masih berada di dalam gelap, bahwa yang dilakukannya itu adalah karena Allah yang turut bekerja, sehingga nama Tuhan yang dimuliakan, bukan diri kita sendiri.
 </p>
 
-## Conclusions
+## Kesimpulan
 
 Kesimpulan dari Perikop ini :
 <ol type="1">
