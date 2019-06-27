@@ -35,7 +35,7 @@ disqus:
 
 # if you don't have any of social below, comment the line
 email: hilton.tnunay@manchester.ac.uk
-# github: quarcle
+gitlab: quarcle
 linkedin: hilton-tnunay
 # facebook: hiltontnunay
 twitter: hiltontnunay
@@ -44,7 +44,6 @@ twitter: hiltontnunay
 # pinterest: mypinterest
 # youtube: myyoutube
 # spotify: myspotify
-gitlab: quarcle
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
