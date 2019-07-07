@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Belajar dari Nikodemus"
 layout: post
 date: 2018-06-22 14:15
@@ -78,4 +78,4 @@ Kesimpulan dari Perikop ini :
   <li><p align="justify">Ketika kita hidup dalam Terang, maka kita akan merasa enggan untuk berbuat dosa, karena jika kita berbuat dosa, akan terlihat dengan jelas. Saat kita hidup dalam Terang dan kita melakukan yang benar, maka orang lain akan melihat Terang itu yang sesungguhnya, baik orang yang berada masih dalam kegelapan, maupun yang sudah berada dalam terang.
     </p>
   </li>
-</ol> 
+</ol>  -->
