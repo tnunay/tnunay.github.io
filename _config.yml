@@ -14,7 +14,7 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 publication: true
 publication-external: true
-publication-url: https://scholar.google.co.uk/citations?user=5fn_JVIAAAAJ&hl=en
+publication-url: https://scholar.google.co.uk/citations?user=zcckBDUAAAAJ&hl=id&oi=ao
 
 url: https://tnunay.github.io
 # your url: http://USERNAME.github.io
@@ -34,7 +34,7 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-email: hilton.tnunay@manchester.ac.uk
+email: ishak.tnunay@gipsa-lab.fr
 # github: quarcle
 gitlab: quarcle
 linkedin: hilton-tnunay
