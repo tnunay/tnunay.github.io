@@ -7,17 +7,21 @@ layout: page
 
 ## Biography
 
-<p align="justify">I started studying Electrical Engineering in the Department of Electrical and Electronic Engineering at
-Universitas Gadjah Mada, Indonesia, as a bachelor student. During my study, I was involved in several research projects including battery-pack management system in the national project of electric car. After the project finished, I became the member of UAV research group. I was responsible for designing simple formation control algorithm using the well-known potential field method which, in the end of my study, also became part of my bachelor thesis. I have published several papers on IEEE and MEV Journal based on the result of the project I participated in.
+<p align="justify">I received the Bachelor of Engineering degree from Universitas Gadjah Mada, Indonesia. During my undergraduate study, I was firstly involved in the project of battery-pack management system of national electric car. After the project completed, I joined the UAV formation control research group. I was responsible for designing a simple formation control algorithm using the well-known potential field method which, in the end of my study, also became my bachelor thesis. Those results have been published on IEEE and MEV Journal.
 </p>
 
-<p align="justify">After finishing my undergraduate study, I took my doctoral degree in the field of control systems at The University of Manchester under the supervision of Professor Zhengtao Ding, and supported by Indonesia Endowment Fund for Education, Ministry of Finance, Indonesia. I did a research on the coordination of robotic sensor networks. From this topic, I am designing distributed algorithms to solve the motion control, coverage control, optimisation and filtering problems in a sensor network.</p>
+<p align="justify">After finishing my undergraduate study, I took the doctoral degree in the field of control systems at The University of Manchester under the supervision of Professor Zhengtao Ding. My doctoral study was supported by Indonesia Endowment Fund for Education (LPDP), Indonesia. Aligning with my bachelor thesis, I did a research on the distributed coordination and estimation algorithms of robotic sensor networks. I designed distributed algorithms to solve the motion control of robots whose objective was to solve coverage control problem in unknown environment via distributed optimisation and Kalman-based estimation. While focusing on my own research project, I also did collaboration to work on bearing-based formation control, affine formation control, and fixed-time formation control. The results have been published in the journals by IEEE and Elsevier.</p>
 
-<p align="justify">In 2015, when I was in the application process for LPDP scholarship, I told the interviewers that someday, after I finish my PhD, I will apply my research about robotics coordination systems to help people in Indonesia. To actualise this promise, while pursuing my PhD, I also collaborate with some colleagues co-founding a startup company which aims to implement the formation control algorithm to a swarm of Unmanned Aerial Vehicles to help people execute their daily tasks. The startup company we are currently working on is <a href="http://www.bvdrones.com/">Beehive Drones</a>.</p>
+<p align="justify">Following the completion of my doctoral study, I am involved in the development of a Otaklebah middleware to operate multiple UAVs for various purposes in a startup company, Beehive Drones. I am also involved in the project of Navier Delivery Systems aiming to build a website-application-based delivery systems with Hybrid VTOL plane.</p>
+
+<p align="justify">I am currently a researcher in the COPERNIC group at GIPSA Lab, Grenoble INP, CNRS, France ( 
+<a href="http://www.gipsa-lab.fr/page_pro.php?vid=3828">My GIPSA lab page</a>
+). I am currently working on the trajectory generation and tracking algorithms of multiple quadcopters.</p>
 
 ## Awards
 
 <ul class="awards">
+	<li>Awardee of LPDP Scholarship 2015</li>
 	<li>First place in the Venture Out Research Category 2017</li>
 	<li>First place in the Indonesia Final of Imagine Cup 2018</li>
 	<li>Fourth place in the Asia Pasific Final of Imagine Cup 2018</li>
