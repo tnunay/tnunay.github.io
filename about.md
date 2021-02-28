@@ -23,6 +23,7 @@ layout: page
 	<li>First place in the Venture Out Research Category 2017</li>
 	<li>First place in the Indonesia Final of Imagine Cup 2018</li>
 	<li>Fourth place in the Asia Pasific Final of Imagine Cup 2018</li>
+	<li>Finalist in World Final of Imagine Cup 2018</li>
 </ul>
 
 ## Contact
