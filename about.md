@@ -29,7 +29,7 @@ layout: page
 ## Contact
 <p>Office:<br>
 Room B224, GIPSA Lab,<br>
-11 rue des Mathématiques
+11 rue des Mathématiques <br>
 38402 Saint Martin d'Hères<br>
 <br>
 Email: <br>
