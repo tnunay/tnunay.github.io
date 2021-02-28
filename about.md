@@ -26,6 +26,19 @@ layout: page
 	<li>Finalist in World Final of Imagine Cup 2018</li>
 </ul>
 
+## Research Interests
+
+<p align="justify">My research interests include:</p>
+
+<ul class="research-interests">
+	<li>Cooperative control</li>
+	<li>Distributed estimation</li>
+	<li>Nonlinear control</li>
+	<li>Multi-agent systems</li>
+	<li>Aerial robotics</li>	
+</ul>
+
+
 ## Contact
 <p>Office:<br>
 Room B224, GIPSA Lab,<br>
