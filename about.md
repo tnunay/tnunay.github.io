@@ -14,9 +14,7 @@ layout: page
 
 <p align="justify">Following the completion of my doctoral study, I am involved in the development of a Otaklebah middleware to operate multiple UAVs for various purposes in a startup company, Beehive Drones. I am also involved in the project of Navier Delivery Systems aiming to build a website-application-based delivery systems with Hybrid VTOL plane.</p>
 
-<p align="justify">I am currently a researcher in the COPERNIC group at GIPSA Lab, Grenoble INP, CNRS, France ( 
-<a href="http://www.gipsa-lab.fr/page_pro.php?vid=3828">My GIPSA lab page</a>
-). I am currently working on the trajectory generation and tracking algorithms of multiple quadcopters.</p>
+<p align="justify">I am currently a researcher in the COPERNIC group at GIPSA Lab, Grenoble INP, CNRS, France (<a href="http://www.gipsa-lab.fr/page_pro.php?vid=3828">my GIPSA lab page</a>). My current research aligns with my previous research topics, where I currently focus on the trajectory generation and tracking techniques of multiple quadcopters.</p>
 
 ## Awards
 
