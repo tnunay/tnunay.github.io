@@ -1,5 +1,5 @@
 ---
-title: "Beehive Drones: A Long Journey to Collaborative UAVs"
+title: "Beehive Drones: A Long Journey to UAV Research Laboratory"
 layout: post
 date: 2018-06-22 12:10
 tag: beehivedrones
