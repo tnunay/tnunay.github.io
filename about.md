@@ -27,7 +27,7 @@ layout: page
 	<li>
 		<p>
 		Doctoral Degree (PhD in Control Systems):<br>
-		Electrical and Electronics Engineering, The University of Manchester, UK<br>
+		Electrical and Electronics Engineering, The University of Manchester, United Kingdom<br>
 		</p>
 	</li>
 </ul>
