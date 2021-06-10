@@ -5,7 +5,7 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 <p align="center"> Researcher in Control Systems</p>
 
-## Biography
+## Profile
 
 <p align="justify">I received the Bachelor of Engineering degree from Universitas Gadjah Mada, Indonesia. During my undergraduate study, I was firstly involved in the project of battery-pack management system of national electric car. After the project completed, I joined the UAV formation control research group. I was responsible for designing a simple formation control algorithm using the well-known potential field method which, in the end of my study, also became my bachelor thesis. Those results have been published on IEEE and MEV Journal.
 </p>
@@ -16,8 +16,23 @@ layout: page
 
 <p align="justify">I am currently a researcher in the COntrol, PErception, Robots, Navigation and Intelligent Computing (COPERNIC) group at (Grenoble Images Parole Signal Automatique) GIPSA Lab, France, a joint research unit of CNRS, Grenoble INP and University of Grenoble-Alpes (<a href="http://www.gipsa-lab.fr/page_pro.php?vid=3828">my GIPSA lab page</a>). My current research aligns with my previous research topics, where I currently focus on the trajectory generation and tracking techniques of multiple quadcopters.</p>
 
-## Awards
+## Education
+<ul class="education">
+	<li>
+		<p>
+		Bachelor Degree (ST, equivalent to BEng, in Electrical Engineering):<br>
+		Electrical Engineering, Universitas Gadjah Mada, Indonesia<br>
+		</p>
+	</li>
+	<li>
+		<p>
+		Doctoral Degree (PhD in Control Systems):<br>
+		Electrical and Electronics Engineering, The University of Manchester, UK<br>
+		</p>
+	</li>
+</ul>
 
+## Awards
 <ul class="awards">
 	<li>Awardee of LPDP Scholarship 2015</li>
 	<li>First place in the Venture Out Research Category 2017</li>

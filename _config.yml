@@ -1,6 +1,6 @@
 # main text of home
 name: Hilton Tnunay
-bio: A Bayesian Learning Agent
+bio: Researcher in Control Systems
 
 # twitter summary info
 description: Blog about personal views and projects
@@ -57,7 +57,7 @@ twitter: htnunay
 authors:
     hiltontnunay:
         name: Hilton Tnunay
-        bio: A Bayesian Learning Agent
+        bio: Researcher in Control Systems
         external-image: false
         picture: assets/images/profile.jpeg    
 
