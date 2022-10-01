@@ -12,9 +12,11 @@ layout: page
 
 <p align="justify">After finishing my undergraduate study, I took the doctoral degree in the field of control systems at The University of Manchester under the supervision of Professor Zhengtao Ding. My doctoral study was supported by Indonesia Endowment Fund for Education (LPDP), Indonesia. Aligning with my bachelor thesis, I did a research on the distributed coordination and estimation algorithms of robotic sensor networks. I designed distributed algorithms to solve the motion control of robots whose objective was to solve coverage control problem in unknown environment via distributed optimisation and Kalman-based estimation. While focusing on my own research project, I also did collaboration to work on bearing-based formation control, affine formation control, and fixed-time formation control. The results have been published in the journals by IEEE and Elsevier.</p>
 
-<p align="justify">Following the completion of my doctoral study, I am involved in the development of a Otaklebah middleware to operate multiple UAVs for various purposes in a startup company, Beehive Drones. I am also involved in the project of Navier Delivery Systems aiming to build a website-application-based delivery systems with Hybrid VTOL plane.</p>
+<p align="justify">Following the completion of my doctoral study, I was involved in the development of a Otaklebah middleware to operate multiple UAVs for various purposes in a startup company, Beehive Drones. I was also involved in the project of Navier Delivery Systems aiming to build a website-application-based delivery systems with Hybrid VTOL plane.</p>
 
-<p align="justify">I am currently a researcher in the COntrol, PErception, Robots, Navigation and Intelligent Computing (COPERNIC) group at (Grenoble Images Parole Signal Automatique) GIPSA Lab, France, a joint research unit of CNRS, Grenoble INP and University of Grenoble-Alpes (<a href="http://www.gipsa-lab.fr/page_pro.php?vid=3828">my GIPSA lab page</a>). My current research aligns with my previous research topics, where I currently focus on the trajectory generation and tracking techniques of multiple quadcopters.</p>
+<p align="justify">During 2021, I became a postdoctoral researcher in the COntrol, PErception, Robots, Navigation and Intelligent Computing (COPERNIC) group at (Grenoble Images Parole Signal Automatique) GIPSA Lab, France, a joint research unit of CNRS, Grenoble INP and University of Grenoble-Alpes (<a href="http://www.gipsa-lab.fr/page_pro.php?vid=3828">my GIPSA lab page</a>). My current research aligned with my previous research topics, where I focused on the trajectory generation and tracking techniques of multiple quadcopters.</p>
+
+<p align="justify">From January 2022, I am appointed as a postdoctoral researcher in the Geomatics Section of Faculty Engineering Technology, KU Leuven, Belgium (<a href="https://iiw.kuleuven.be/onderzoek/geomatics">Geomatics Section</a>). I am currently working on the Deep Sewer project aiming to develop a robot for automatic mapping and inspection of sewer networks.</p>
 
 ## Education
 <ul class="education">
@@ -56,10 +58,13 @@ layout: page
 
 ## Contact
 <p>Office:<br>
-Room B224, GIPSA Lab,<br>
-11 rue des Mathématiques <br>
-38402 Saint Martin d'Hères<br>
+Geomatics Research Group,<br>
+Faculty of Engineering Technology <br>
+Ghent Technology Campus<br>
+KU Leuven<br>
+Gebroeders De Smeetstraat<br>
+9000 Gent Belgium <br>
 <br>
 Email: <br>
-ishak.tnunay@gipsa-lab.fr
+hilton.tnunay@kuleuven.be
 </p>

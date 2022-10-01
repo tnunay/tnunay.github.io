@@ -1,6 +1,6 @@
 # main text of home
 name: Hilton Tnunay
-bio: Researcher in Control Systems
+bio: Researcher in Robotics and Control Systems
 
 # twitter summary info
 description: Blog about personal views and projects
@@ -34,7 +34,7 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-email: ishak.tnunay@gipsa-lab.fr
+email: hilton.tnunay@kuleuven.be
 github: ep51lon
 gitlab: ep51lon
 linkedin: hilton-tnunay
