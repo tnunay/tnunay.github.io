@@ -14,7 +14,7 @@ layout: page
 
 <p align="justify">Following the completion of my doctoral study, I was involved in the development of a Otaklebah middleware to operate multiple UAVs for various purposes in a startup company, Beehive Drones. I was also involved in the project of Navier Delivery Systems aiming to build a website-application-based delivery systems with Hybrid VTOL plane.</p>
 
-<p align="justify">During 2021, I became a postdoctoral researcher in the COntrol, PErception, Robots, Navigation and Intelligent Computing (COPERNIC) group at (Grenoble Images Parole Signal Automatique) GIPSA Lab, France, a joint research unit of CNRS, Grenoble INP and University of Grenoble-Alpes (<a href="http://www.gipsa-lab.fr/page_pro.php?vid=3828">my GIPSA lab page</a>). My current research aligned with my previous research topics, where I focused on the trajectory generation and tracking techniques of multiple quadcopters.</p>
+<p align="justify">During 2021, I became a postdoctoral researcher in the COntrol, PErception, Robots, Navigation and Intelligent Computing (COPERNIC) group at (Grenoble Images Parole Signal Automatique) GIPSA Lab, France, a joint research unit of CNRS, Grenoble INP and University of Grenoble-Alpes. My current research aligned with my previous research topics, where I focused on the trajectory generation and tracking techniques of multiple quadcopters.</p>
 
 <p align="justify">From January 2022, I am appointed as a postdoctoral researcher in the Geomatics Section of Faculty Engineering Technology, KU Leuven, Belgium (<a href="https://iiw.kuleuven.be/onderzoek/geomatics">Geomatics Section</a>). I am currently working on the Deep Sewer project aiming to develop a robot for automatic mapping and inspection of sewer networks.</p>
 
@@ -58,10 +58,9 @@ layout: page
 
 ## Contact
 <p>Office:<br>
-Geomatics Research Group,<br>
-Faculty of Engineering Technology <br>
-Ghent Technology Campus<br>
-KU Leuven<br>
+Geomatics Research Group<br>
+Faculty of Engineering Technology<br>
+Katholieke Universiteit Leuven<br>
 Gebroeders De Smeetstraat<br>
 9000 Gent Belgium <br>
 <br>
