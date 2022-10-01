@@ -36,11 +36,11 @@ layout: page
 
 ## Awards
 <ul class="awards">
-	<li><p>Awardee of LPDP Scholarship 2015</p></li>
-	<li><p>First place in the Venture Out Research Category 2017</p></li>
-	<li><p>First place in the Indonesia Final of Imagine Cup 2018</p></li>
-	<li><p>Fourth place in the Asia Pasific Final of Imagine Cup 2018</p></li>
-	<li><p>Finalist in World Final of Imagine Cup 2018</p></li>
+	<li>Awardee of LPDP Scholarship 2015<br></li>
+	<li>First place in the Venture Out Research Category 2017<br></li>
+	<li>First place in the Indonesia Final of Imagine Cup 2018<br></li>
+	<li>Fourth place in the Asia Pasific Final of Imagine Cup 2018<br></li>
+	<li>Finalist in World Final of Imagine Cup 2018<br></li>
 </ul>
 
 ## Research Interests
