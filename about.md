@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
-<p align="center"> Researcher in Control Systems</p>
+<p align="center"> Researcher in Robotics and Control Systems</p>
 
 ## Profile
 
@@ -48,11 +48,11 @@ layout: page
 <p align="justify">My research interests include:</p>
 
 <ul class="research-interests">
-	<li>Cooperative control</li>
-	<li>Distributed estimation</li>
-	<li>Nonlinear control</li>
 	<li>Multi-agent systems</li>
-	<li>Aerial robotics</li>	
+	<li>Nonlinear control</li>
+	<li>Sensor fusion</li>
+	<li>Distributed estimation</li>
+	<li>Robotics</li>
 </ul>
 
 
