@@ -48,11 +48,11 @@ layout: page
 <p align="justify">My research interests include:</p>
 
 <ul class="research-interests">
-	<li>Multi-agent systems</li>
-	<li>Nonlinear control</li>
-	<li>Sensor fusion</li>
-	<li>Distributed estimation</li>
-	<li>Robotics</li>
+	<li><p>Multi-agent systems</p></li>
+	<li><p>Nonlinear control</p></li>
+	<li><p>Sensor fusion</p></li>
+	<li><p>Distributed estimation</p></li>
+	<li><p>Robotics</p></li>
 </ul>
 
 
