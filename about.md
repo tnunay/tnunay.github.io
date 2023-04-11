@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
-<p align="center"> Researcher in Robotics and Control Systems</p>
+<p align="center"> Researcher in Cooperative Robotics and Control Systems</p>
 
 ## Profile
 
