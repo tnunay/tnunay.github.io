@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
-<p align="center"> Researcher in Cooperative Robotics and Control Systems</p>
+<p align="center"> Researcher in Robotics and Networked Systems</p>
 
 ## Profile
 
@@ -16,7 +16,7 @@ layout: page
 
 <p align="justify">During 2021, I became a postdoctoral researcher in the COntrol, PErception, Robots, Navigation and Intelligent Computing (COPERNIC) group at (Grenoble Images Parole Signal Automatique) GIPSA Lab, France, a joint research unit of CNRS, Grenoble INP and University of Grenoble-Alpes. My current research aligned with my previous research topics, where I focused on the trajectory generation and tracking techniques of multiple quadcopters.</p>
 
-<p align="justify">From January 2022, I am appointed as a postdoctoral researcher in the Geomatics Section of Faculty Engineering Technology, KU Leuven, Belgium (<a href="https://iiw.kuleuven.be/onderzoek/geomatics">Geomatics Section</a>). I am currently working on the Deep Sewer project aiming to develop a robot for automatic mapping and inspection of sewer networks.</p>
+<p align="justify">From January 2022, I am appointed as a postdoctoral researcher in the Geomatics Section of Faculty Engineering Technology, KU Leuven, Belgium (<a href="https://iiw.kuleuven.be/onderzoek/geomatics">Geomatics Section</a>). In this period, I am working on the Deep Sewer project aiming to develop a module for automatic mapping and inspection of sewer networks.</p>
 
 ## Education
 <ul class="education">
@@ -48,11 +48,12 @@ layout: page
 <p align="justify">My research interests include:</p>
 
 <ul class="research-interests">
+	<li>Robotics<br></li>
 	<li>Multi-agent systems<br></li>
 	<li>Nonlinear control<br></li>
 	<li>Sensor fusion<br></li>
 	<li>Distributed estimation<br></li>
-	<li>Robotics<br></li>
+	<li>Visual navigation<br></li>
 </ul>
 
 
@@ -61,7 +62,7 @@ layout: page
 Geomatics Research Group<br>
 Faculty of Engineering Technology<br>
 Katholieke Universiteit Leuven<br>
-Gebroeders De Smeetstraat<br>
+Gebroeders De Smeetstraat 1<br>
 9000 Gent Belgium <br>
 <br>
 Email: <br>
