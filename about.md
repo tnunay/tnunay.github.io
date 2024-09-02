@@ -63,7 +63,6 @@ layout: page
 <p>Office:<br>
 School of Electrical Engineering and Informatics<br>
 Institut Teknologi Bandung (ITB)<br>
-Labtek VIII Lantai 2<br>
 Jalan Ganesha 10<br>
 Bandung, Jawa Barat 40132<br>
 Indonesia<br>
