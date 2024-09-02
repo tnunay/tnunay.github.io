@@ -16,7 +16,9 @@ layout: page
 
 <p align="justify">During 2021, I became a postdoctoral researcher in the COntrol, PErception, Robots, Navigation and Intelligent Computing (COPERNIC) group at (Grenoble Images Parole Signal Automatique) GIPSA Lab, France, a joint research unit of CNRS, Grenoble INP and University of Grenoble-Alpes. My current research aligned with my previous research topics, where I focused on the trajectory generation and tracking techniques of multiple quadcopters.</p>
 
-<p align="justify">From January 2022, I am appointed as a postdoctoral researcher in the Geomatics Section of Faculty Engineering Technology, KU Leuven, Belgium (<a href="https://iiw.kuleuven.be/onderzoek/geomatics">Geomatics Section</a>). In this period, I am working on the Deep Sewer project aiming to develop a module for automatic mapping and inspection of sewer networks.</p>
+<p align="justify">From January 2022 until April 2024, I was appointed as a postdoctoral researcher in the <a href="https://iiw.kuleuven.be/onderzoek/geomatics">Geomatics Section</a> of Faculty Engineering Technology, KU Leuven, Belgium. In this period, I was working on the Deep Sewer project aiming to develop a module for automatic mapping and inspection of sewer networks.</p>
+
+<p align="justify">In September 2024, I am appointed as a lecturer in the School of Electrical Engineering and Informatics at Institut Teknologi Bandung (ITB), Bandung, Indonesia. With my background and expertise, I am joining the (<a href="https://stei.itb.ac.id/kk/teknik-komputer/">Computer Engineering Research Group</a>). </p>
 
 ## Education
 <ul class="education">
@@ -59,12 +61,13 @@ layout: page
 
 ## Contact
 <p>Office:<br>
-Geomatics Research Group<br>
-Faculty of Engineering Technology<br>
-Katholieke Universiteit Leuven<br>
-Gebroeders De Smeetstraat 1<br>
-9000 Gent Belgium <br>
+School of Electrical Engineering and Informatics<br>
+Institut Teknologi Bandung (ITB)<br>
+Labtek VIII Lantai 2<br>
+Jalan Ganesha 10<br>
+Bandung, Jawa Barat 40132<br>
+Indonesia<br>
 <br>
 Email: <br>
-hilton.tnunay@kuleuven.be
+hilton.tnunay@itb.ac.id
 </p>
