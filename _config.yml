@@ -14,8 +14,8 @@ picture: assets/images/profile.jpeg
 # and specify source (external or local).
 publication: true
 publication-external: true
-# publication-url: https://scholar.google.com/citations?user=zcckBDUAAAAJ&hl=en
-publication-url: https://orcid.org/0000-0002-8791-6032
+publication-url: https://scholar.google.com/citations?user=zcckBDUAAAAJ&hl=en
+# publication-url: https://orcid.org/0000-0002-8791-6032
 
 url: https://tnunay.github.io
 # your url: http://USERNAME.github.io
