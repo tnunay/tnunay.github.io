@@ -18,7 +18,7 @@ layout: page
 
 <p align="justify">From January 2022 until April 2024, I was appointed as a postdoctoral researcher in the <a href="https://iiw.kuleuven.be/onderzoek/geomatics">Geomatics Section</a> of Faculty Engineering Technology, KU Leuven, Belgium. In this period, I was working on the Deep Sewer project aiming to develop a module for automatic mapping and inspection of sewer networks.</p>
 
-<p align="justify">In September 2024, I am appointed as a lecturer in the School of Electrical Engineering and Informatics at Institut Teknologi Bandung (ITB), Bandung, Indonesia. With my background and expertise, I am joining the (<a href="https://stei.itb.ac.id/kk/teknik-komputer/">Computer Engineering Research Group</a>). </p>
+<p align="justify">In September 2024, I am appointed as a lecturer in the School of Electrical Engineering and Informatics at Institut Teknologi Bandung (ITB), Bandung, Indonesia. With my background and experience, I am joining the (<a href="https://stei.itb.ac.id/kk/teknik-komputer/">Computer Engineering Research Group</a>). </p>
 
 ## Education
 <ul class="education">
