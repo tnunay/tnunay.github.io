@@ -2,7 +2,7 @@
 title: "Location"
 date: 2026-03-01
 hidemeta: true
-description: "Hilton Tnunay's mailing and office addresses at Institut Teknologi Bandung."
+description: "Hilton Tnunay's mailing and office addresses at ITB."
 
 ---
 

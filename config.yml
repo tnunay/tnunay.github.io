@@ -12,21 +12,18 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
-          url: papers/
-          weight: 2
+        - name: Projects
+          url: projects/
+          weight: 2 
         - name: Courses
           url: courses/
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+        - name: Papers
+          url: papers/
+          weight: 4
+        - name: Posts
+          url: posts/
+          weight: 5
 
 params:
     description: "This website hosts Hilton Tnunay's research papers, books, course materials, data, curriculum vitae, and contact information."
@@ -54,8 +51,8 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Dr Hilton Tnunay
-          subtitle: "I am a lecturer in the School of Electrical Engineering and Informatics at Institut Teknologi Bandung (ITB), Indonesia. My research focuses on control and perception of robotic systems. I received my doctoral degree in Control Systems from The University of Manchester, UK, in 2020. I subsequently worked as a postdoc at GIPSA Lab, Universite Grenoble-Alpes, France, and KU Leuven, Belgium, until 2024."
+          title: Hilton Tnunay
+          subtitle: "I am a lecturer in the School of Electrical Engineering and Informatics at Institut Teknologi Bandung (ITB), Indonesia. My research focuses on control and perception of robotic systems. I received my doctoral degree in Control Systems from The University of Manchester, UK, in 2020. I subsequently worked as a postdoc at GIPSA Lab, CNRS, Universite Grenoble-Alpes, France, and at KU Leuven, Belgium, until 2024."
           imageUrl: "profile.jpeg"
           imageWidth: 160
           imageHeight: 160
@@ -70,7 +67,7 @@ params:
               url: posts/
             - name: Tags
               url: tags/
-            - name: Archive
+            - name: Archives
               url: archive/
             # - name: Books
             #   url: books/
@@ -90,14 +87,14 @@ params:
           url: https://scholar.google.com/citations?user=zcckBDUAAAAJ&hl=en
         - name: GitHub
           url: https://github.com/ep51lon
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
+        # - name: Substack
+        #   url: https://pmichaillat.substack.com
+        # - name: YouTube
+        #   url: https://www.youtube.com/@pmichaillat
         - name: Twitter
-          url: https://x.com/pmichaillat
-        - name: Bluesky
-          url: https://bsky.app/profile/pmichaillat.bsky.social
+          url: https://x.com/htnunay
+        # - name: Bluesky
+        #   url: https://bsky.app/profile/pmichaillat.bsky.social
 
     assets:
         disableScrollBarStyle: true
@@ -105,7 +102,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Hilton Tnunay"
       icon: favicon.ico
       iconHeight: 18
 
