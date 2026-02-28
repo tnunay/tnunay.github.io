@@ -1,8 +1,8 @@
 ---
 title: "Location"
-date: 2024-05-08
+date: 2026-03-01
 hidemeta: true
-description: "Professor Dr von Igelfeld's mailing and office addresses at the Institute of Romance Philology."
+description: "Hilton Tnunay's mailing and office addresses at Institut Teknologi Bandung."
 
 ---
 
@@ -10,18 +10,23 @@ description: "Professor Dr von Igelfeld's mailing and office addresses at the In
 
 #### Mailing address
 
-Professor Dr von Igelfeld  
-Institute of Romance Philology  
-University of Regensburg  
-Regensburg, Germany
+Dr Hilton Tnunay  
+Computer Engineering Group
+School of Electrical Engineering and Informatics
+Institut Teknologi Bandung (ITB)
+Jalan Ganesha 10 Bandung
+Jawa Barat Indonesia 40132
 
 ---
 
 #### Office address
 
-Room 133  
-Institute of Romance Philology  
-University of Regensburg
+Control System and Computer Laboratory (LSKK)
+Labtek 8 2nd floor
+School of Electrical Engineering and Informatics
+Institut Teknologi Bandung (ITB)
+Jalan Ganesha 10 Bandung
+Jawa Barat Indonesia 40132
 
 ---
 

@@ -55,33 +55,33 @@ params:
     profileMode:
           enabled: true
           title: Dr Hilton Tnunay
-          subtitle: "I am a lecturer at Institut Teknologi Bandung (ITB), Indonesia. My research focuses on control and perception of robotic systems. I received my doctoral degree in Control Systems from The University of Manchester, UK, in 2020. I subsequently worked as a postdoc at GIPSA Lab, Universite Grenoble-Alpes, France, and KU Leuven, Belgium, until 2024."
-          imageUrl: "picture.jpeg"
+          subtitle: "I am a lecturer in the School of Electrical Engineering and Informatics at Institut Teknologi Bandung (ITB), Indonesia. My research focuses on control and perception of robotic systems. I received my doctoral degree in Control Systems from The University of Manchester, UK, in 2020. I subsequently worked as a postdoc at GIPSA Lab, Universite Grenoble-Alpes, France, and KU Leuven, Belgium, until 2024."
+          imageUrl: "profile.jpeg"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Papers
-              url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
+            - name: Projects
+              url: projects/
             - name: Courses
               url: courses/
+            - name: Papers
+              url: papers/
+            - name: Posts
+              url: posts/
             - name: Tags
               url: tags/
             - name: Archive
               url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            # - name: Books
+            #   url: books/
+            # - name: Publications
+            #   url: https://scholar.google.com/citations?user=zcckBDUAAAAJ&hl=en
 
     socialIcons:
         - name: CV
           url: cv.pdf
         - name: Email
           url: mailto:hilton.tnunay@itb.ac.id
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
         - name: Location
           url: location/
         - name: Office Hours
