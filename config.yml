@@ -52,7 +52,10 @@ params:
     profileMode:
           enabled: true
           title: Hilton Tnunay
-          subtitle: "I am a lecturer in the School of Electrical Engineering and Informatics at Institut Teknologi Bandung (ITB), Indonesia. My research focuses on control and perception of robotic systems. I received my doctoral degree in Control Systems from The University of Manchester, UK, in 2020. I subsequently worked as a postdoc at GIPSA Lab, CNRS, Universite Grenoble-Alpes, France, and at KU Leuven, Belgium, until 2024."
+          subtitle: "
+          I am a lecturer in the School of Electrical Engineering and Informatics at Institut Teknologi Bandung (ITB), Indonesia. I received my doctoral degree in Control Systems from The University of Manchester, UK. I subsequently worked as a postdoc at GIPSA Lab, CNRS, Universite Grenoble-Alpes, France, and at KU Leuven, Belgium.\n>
+          
+          My research interests include cooperative control, sensing and perception in robotics."
           imageUrl: "profile.jpeg"
           imageWidth: 160
           imageHeight: 160
