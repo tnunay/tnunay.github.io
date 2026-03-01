@@ -79,7 +79,7 @@ params:
 
     socialIcons:
         - name: CV
-          url: cv.pdf
+          url: cv_tnunay.pdf
         - name: Email
           url: mailto:hilton.tnunay@itb.ac.id
         - name: Location
