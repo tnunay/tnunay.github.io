@@ -55,7 +55,9 @@ params:
           subtitle: "
           I am a lecturer in the School of Electrical Engineering and Informatics at Institut Teknologi Bandung (ITB), Indonesia. I received my doctoral degree in Control Systems from The University of Manchester, UK. I subsequently worked as a postdoc at GIPSA Lab, CNRS, Universite Grenoble-Alpes, France, and at KU Leuven, Belgium.\n>
           
-          My research interests include cooperative control, sensing and perception in robotics."
+          My research interests include cooperative control, sensing and perception in robotics.
+          
+          The main research question I am pursuing is "How can autonomous robotcs perceive, reason, and coordinate when information about themselves and their environments is incomplete?""
           imageUrl: "profile.jpeg"
           imageWidth: 160
           imageHeight: 160
