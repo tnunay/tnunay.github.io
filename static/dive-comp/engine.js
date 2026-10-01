@@ -1,4 +1,4 @@
-// Transcribed from the user's Jeppesen Sport Diver Open Water U.S. Navy chart.
+// Transcribed from the user's CMAS/POSSI dive chart.
 // null denotes a blank cell, never zero. The image has no publication date.
 const letters='ABCDEFGHIJKLMNO';
 const rows=[
