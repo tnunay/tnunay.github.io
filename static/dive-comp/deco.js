@@ -25,13 +25,35 @@ function lookupDeco(depth,abt){
  const selectedIndex=baseIndex+2;
  if(selectedIndex>=rows.length)throw Error('Two additional time rows are unavailable at this depth. No schedule is extrapolated or taken from another depth.');
  const row=rows[selectedIndex];
- return {tableDepth,abt,roundedTime,baseTime:rows[baseIndex][0],selectedTime:row[0],firstStop:row[1],stops:[{feet:20,minutes:row[2]},{feet:10,minutes:row[3]}].filter(s=>s.minutes>0),totalAscent:row[4],group:row[5]};
+ return {depth,tableDepth,abt,roundedTime,baseTime:rows[baseIndex][0],selectedTime:row[0],firstStop:row[1],stops:[{feet:20,minutes:row[2]},{feet:10,minutes:row[3]}].filter(s=>s.minutes>0),totalAscent:row[4],group:row[5]};
+}
+function decoSeconds(value){const [m,s]=value.split(':').map(Number);return m*60+s;}
+function decoClock(seconds){return Math.floor(seconds/60)+':'+String(seconds%60).padStart(2,'0');}
+function decoProfile(r){
+ const label=(x,y,t,cls='')=>`<text x="${x}" y="${y}" text-anchor="middle" class="${cls}">${t}</text>`;
+ const top=90,bottom=260,depthY=d=>top+(bottom-top)*d/r.tableDepth;
+ const points=[[25,top],[70,bottom],[300,bottom]];
+ let labels=[label(185,35,`Bottom depth: ${r.tableDepth} ft (${(r.tableDepth*.3048).toFixed(2)} m)`,'profile-dive'),label(185,bottom-14,`Entered depth: ${r.depth} ft`),label(185,bottom+25,`ABT: ${r.abt} min`)];
+ r.stops.forEach((stop,i)=>{
+ const x=450+i*180,y=depthY(stop.feet);points.push([x,y],[x+90,y]);
+ labels.push(label(x+45,y-15,`${stop.feet} ft (${(stop.feet*.3048).toFixed(2)} m)`),label(x+45,y+25,`Stop: ${stop.minutes} min`));
+ });
+ points.push([840,top],[875,top]);
+ const ascent=decoSeconds(r.totalAscent),first=decoSeconds(r.firstStop),stops=r.stops.reduce((sum,s)=>sum+s.minutes*60,0);
+ const rest=ascent-first-stops;
+ labels.push(label(355,220,`First-stop travel`,'profile-small'),label(355,242,`${r.firstStop} (min:sec)`));
+ labels.push(label(840,35,'Final group','profile-small'),`<rect x="817" y="45" width="46" height="30" rx="6" class="groupbox"/>`,label(840,66,r.group,'profile-dive'));
+ labels.push(label(450,330,`Remaining ascent travel between stops and to surface: ${decoClock(rest)} (min:sec)`));
+ labels.push(label(450,359,`Total ascent including stops: ${r.totalAscent} (min:sec)`,'profile-dive'));
+ labels.push(label(450,388,`Total dive time: ${decoClock(Math.round(r.abt*60)+ascent)} (min:sec) = entered ABT + table ascent`,'profile-dive'));
+ labels.push(label(450,417,`Adjusted table schedule: ${r.selectedTime} min · Horizontal spacing is schematic`,'profile-small'));
+ return `<section class="profile-section" aria-label="Decompression dive profile"><h3>Decompression dive profile</h3><p class="small">Stop depths and ascent times use the selected table row. Individual travel times after the first stop are not printed, so only their combined time is shown. Total dive time assumes ABT includes descent.</p><div class="profile-scroll" tabindex="0" aria-label="Scrollable decompression profile"><svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" role="img" aria-labelledby="deco-profile-title"><title id="deco-profile-title">Decompression dive depth and stop profile, ending in group ${r.group}</title><line x1="25" y1="${top}" x2="875" y2="${top}" class="waterline"/><polyline points="${points.map(p=>p.join(',')).join(' ')}" class="profile-path"/>${labels.join('')}</svg></div></section>`;
 }
 function renderDeco(){
  const out=document.querySelector('#deco-output');
  try{
  const r=lookupDeco(Number(document.querySelector('#deco-depth').value),Number(document.querySelector('#deco-abt').value));
- out.innerHTML=`<article class="result-card"><div class="result-top"><h3>Training table lookup · ${r.tableDepth} ft</h3><span class="badge">Group after dive: ${r.group}</span></div><div class="breakdown"><p>ABT ${r.abt} min → rounded time ${r.roundedTime} min → matching table row <strong>${r.baseTime} min</strong> → two rows down → <strong>${r.selectedTime} min schedule</strong>.</p><p>Table depth ${r.tableDepth} ft (${(r.tableDepth*.3048).toFixed(2)} m).</p><p><strong>Time to first stop: ${r.firstStop} (min:sec)</strong></p><table class="deco-stops"><caption>Printed decompression stops</caption><thead><tr><th>Stop depth</th><th>Stop duration</th></tr></thead><tbody>${r.stops.map(s=>`<tr><td>${s.feet} ft (${(s.feet*.3048).toFixed(2)} m)</td><td>${s.minutes} min</td></tr>`).join('')}</tbody></table><p><strong>Total ascent time: ${r.totalAscent} (min:sec)</strong></p><p><strong>Repetitive group after decompression: ${r.group}</strong></p><p>Single-dive lookup assuming no residual nitrogen. This result is not transferred to Section 1.</p></div></article>`;
+ out.innerHTML=decoProfile(r)+`<article class="result-card"><div class="result-top"><h3>Training table lookup · ${r.tableDepth} ft</h3><span class="badge">Group after dive: ${r.group}</span></div><div class="breakdown"><p>ABT ${r.abt} min → rounded time ${r.roundedTime} min → matching table row <strong>${r.baseTime} min</strong> → two rows down → <strong>${r.selectedTime} min schedule</strong>.</p><p>Table depth ${r.tableDepth} ft (${(r.tableDepth*.3048).toFixed(2)} m).</p><p><strong>Time to first stop: ${r.firstStop} (min:sec)</strong></p><table class="deco-stops"><caption>Printed decompression stops</caption><thead><tr><th>Stop depth</th><th>Stop duration</th></tr></thead><tbody>${r.stops.map(s=>`<tr><td>${s.feet} ft (${(s.feet*.3048).toFixed(2)} m)</td><td>${s.minutes} min</td></tr>`).join('')}</tbody></table><p><strong>Total ascent time: ${r.totalAscent} (min:sec)</strong></p><p><strong>Repetitive group after decompression: ${r.group}</strong></p><p>Single-dive lookup assuming no residual nitrogen. This result is not transferred to Section 1.</p></div></article>`;
  }catch(e){out.innerHTML='<div class="error" role="status">'+e.message+'</div>';}
 }
 if(typeof document!=='undefined'){
