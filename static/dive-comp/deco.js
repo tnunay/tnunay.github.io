@@ -41,7 +41,7 @@ function decoProfile(r){
  points.push([840,top],[875,top]);
  const ascent=decoSeconds(r.totalAscent),first=decoSeconds(r.firstStop),stops=r.stops.reduce((sum,s)=>sum+s.minutes*60,0);
  const rest=ascent-first-stops;
- labels.push(label(355,220,`First-stop travel`,'profile-small'),label(355,242,`${r.firstStop} (min:sec)`));
+ labels.push(label(660,220,`First-stop travel`,'profile-small'),label(660,242,`${r.firstStop} (min:sec)`));
  labels.push(label(840,35,'Final group','profile-small'),`<rect x="817" y="45" width="46" height="30" rx="6" class="groupbox"/>`,label(840,66,r.group,'profile-dive'));
  labels.push(label(450,330,`Remaining ascent travel between stops and to surface: ${decoClock(rest)} (min:sec)`));
  labels.push(label(450,359,`Total ascent including stops: ${r.totalAscent} (min:sec)`,'profile-dive'));
