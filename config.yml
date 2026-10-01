@@ -24,6 +24,9 @@ menu:
         - name: Posts
           url: posts/
           weight: 5
+        - name: Dive Planner
+          url: dive-comp/
+          weight: 6
 
 params:
     description: "This website hosts Hilton Tnunay's research papers, books, course materials, data, curriculum vitae, and contact information."
@@ -70,6 +73,8 @@ params:
               url: papers/
             - name: Posts
               url: posts/
+            - name: Dive Planner
+              url: dive-comp/
             - name: Tags
               url: tags/
             - name: Archives
