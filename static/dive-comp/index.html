@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Dive Planner · Hilton Tnunay</title><meta name="description" content="Repetitive air-dive table calculations: surface intervals, group letters, RNT, ABT, TBT and NDL using the supplied Jeppesen ISSA/POSSI chart."><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2309293c'/%3E%3Cpath d='M6 10h20M9 16h14M12 22h8' stroke='%235ee0cd' stroke-width='3'/%3E%3C/svg%3E"><link rel="canonical" href="https://tnunay.org/dive-comp/"><link rel="stylesheet" href="/dive-comp/style.css?v=profile-1"><script src="/dive-comp/engine.js" defer></script><script src="/dive-comp/app.js?v=profile-1" defer></script><style>#section-2 .settings{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));align-items:start}#section-1-title{margin:24px 0 12px}main>nav{margin:20px 0}#section-2 h3{margin-top:24px}section[id]{scroll-margin-top:20px}</style></head>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Dive Planner · Hilton Tnunay</title><meta name="description" content="Repetitive air-dive table calculations: surface intervals, group letters, RNT, ABT, TBT and NDL using the supplied Jeppesen ISSA/POSSI chart."><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2309293c'/%3E%3Cpath d='M6 10h20M9 16h14M12 22h8' stroke='%235ee0cd' stroke-width='3'/%3E%3C/svg%3E"><link rel="canonical" href="https://tnunay.org/dive-comp/"><link rel="stylesheet" href="/dive-comp/style.css?v=possi-1"><script src="/dive-comp/engine.js" defer></script><script src="/dive-comp/app.js?v=profile-1" defer></script><style>#section-2 .settings{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));align-items:start}#section-1-title{margin:24px 0 12px}main>nav{margin:20px 0}#section-2 h3{margin-top:24px}section[id]{scroll-margin-top:20px}</style><script src="/dive-comp/deco.js?v=possi-1" defer></script></head>
 <body><header><a class="brand" href="/">Hilton Tnunay</a><nav aria-label="Website navigation"><a href="/projects/">Projects</a><a href="/courses/">Courses</a><a href="/papers/">Papers</a><a href="/posts/">Posts</a><a href="/dive-comp/" aria-current="page">Dive Planner</a></nav></header>
 <main><div class="heading"><div><p class="eyebrow">JEPPESEN · ISSA / POSSI TRAINING CHART</p><h1>Dive planning tables</h1><p>Plan each dive. See how the surface interval changes your next bottom-time allowance.</p></div><span class="edition">Training calculator<br>Chart edition undated</span></div>
 <div class="notice"><strong>Check against your printed table before use.</strong> Values were transcribed from your supplied photo; they have not been independently validated. This is an air, square-profile, no-decompression calculator—not a certified dive computer or a complete gas plan.</div>
@@ -10,29 +10,10 @@
 </section>
 <section id="section-2" aria-labelledby="section-2-title" class="reference">
 <h2 id="section-2-title">Section 2 · Decompression dive planning</h2>
-<p>U.S. Navy standard air decompression table · Supplied Jeppesen chart, marked “Emergency decompression stop”.</p>
-<div class="notice"><strong>Reference and manual training worksheet only.</strong> Red lettering obscures several cells in this photo. Automatic stop schedules are unavailable until a clear table and its complete operating instructions are verified. Entries below are your own notes, not a validated decompression plan. Section 1 does not continue a sequence after an over-limit dive.</div>
-<h3>Manual dive-profile worksheet</h3><p class="small">Record values checked with your instructor and complete original table. The worksheet does not calculate or approve them. Notes are not saved after reloading.</p>
-<div class="settings">
-<label>Dive number<input type="number" min="1" aria-label="Decompression dive number"></label>
-<label>Maximum depth (feet)<input type="number" min="0" aria-label="Decompression maximum depth feet"></label>
-<label>ABT (minutes)<input type="number" min="0" aria-label="Decompression actual bottom time"></label>
-<label>RNT (minutes)<input type="number" min="0" aria-label="Decompression residual nitrogen time"></label>
-<label>TBT (minutes), verified<input type="number" min="0" aria-label="Decompression verified total bottom time"></label>
-<label>Time down<input type="time" aria-label="Decompression time down"></label>
-<label>Time up<input type="time" aria-label="Decompression time up"></label>
-<label>Surface interval (minutes)<input type="number" min="0" aria-label="Decompression surface interval"></label>
-</div>
-<h3>Verified ascent schedule notes</h3><p class="small">Stop depths are printed in feet; stop durations are in minutes. First-stop travel and total ascent use minutes:seconds. Do not infer missing or covered entries.</p>
-<div class="settings">
-<label>Time to first stop (min:sec)<input type="text" placeholder="From verified table"></label>
-<label>50 ft stop (minutes)<input type="number" min="0"></label>
-<label>40 ft stop (minutes)<input type="number" min="0"></label>
-<label>30 ft stop (minutes)<input type="number" min="0"></label>
-<label>20 ft stop (minutes)<input type="number" min="0"></label>
-<label>10 ft stop (minutes)<input type="number" min="0"></label>
-<label>Total ascent (min:sec)<input type="text" placeholder="From verified table"></label>
-<label>Repetitive group, verified<input type="text" placeholder="From verified table"></label>
-</div>
-<details open><summary>View the supplied decompression chart</summary><p class="small">User-supplied photograph; historical chart with obscured entries. Complete edition and operating instructions have not been supplied.</p><a href="/dive-comp/decompression-table.jpeg" target="_blank" rel="noopener">Open full-size chart</a><img class="chart" loading="lazy" src="/dive-comp/decompression-table.jpeg" alt="Supplied dive-profile worksheet and U.S. Navy standard air decompression table with red lettering covering several rows."></details>
+<p>POSSI Table 4 · U.S. Navy air decompression table · Depths in feet.</p>
+<div class="notice"><strong>Training table lookup — verify with your instructor.</strong> Values are transcribed from the supplied POSSI photograph. The two-row adjustment follows your requested training rule; that rule and its conditions are not printed in this photo and have not been independently verified. Complete operating instructions are still required for real diving. This isolated lookup assumes no residual nitrogen from previous dives.</div>
+<div class="settings"><label>Maximum depth (ft)<input id="deco-depth" type="number" min="40" max="140" step="any" value="80"></label><label>Actual bottom time / ABT (min)<input id="deco-abt" type="number" min="1" step="any" value="60"></label></div>
+<p class="small">Round depth up within 40–140 ft and time up to the next printed row, then advance two time rows in the same depth block. Outputs use the adjusted row. If the row is unavailable, the lookup stops. Inputs within the printed no-decompression limit belong in Section 1.</p>
+<div id="deco-output" aria-live="polite"></div>
+<details><summary>View the supplied POSSI decompression chart</summary><p class="small">Source: user-supplied POSSI Table 4 photograph. This version has different printed ascent times from the earlier Jeppesen image. Outputs use this photo only.</p><a href="/dive-comp/possi-decompression-table.jpeg" target="_blank" rel="noopener">Open full-size POSSI chart</a><img class="chart" loading="lazy" src="/dive-comp/possi-decompression-table.jpeg" alt="POSSI Table 4 air decompression chart and dive-profile worksheet."></details>
 </section></main><footer>Jeppesen photo transcription · Air only · Verify every plan with your instructor and original chart.</footer></body></html>
