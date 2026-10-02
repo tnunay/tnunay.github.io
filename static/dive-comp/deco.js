@@ -19,7 +19,7 @@ function lookupDeco(depth,abt){
  if(!Number.isFinite(depth)||depth<40||depth>140)throw Error('Enter a depth from 40 to 140 feet.');
  if(!Number.isFinite(abt)||abt<=0)throw Error('Enter a positive actual bottom time.');
  const tableDepth=Object.keys(decoTable).map(Number).find(d=>d>=depth),rows=decoTable[tableDepth];
- if(abt<=rows[0][0])throw Error('This time is within the printed no-decompression limit. Use Section 1.');
+ if(abt<rows[0][0])throw Error('This time is below the first printed time row in this depth block. Use Section 1.');
  const roundedTime=Math.ceil(abt),baseIndex=rows.findIndex(row=>row[0]>=roundedTime);
  if(baseIndex<0)throw Error('Bottom time exceeds this depth block. No schedule is extrapolated.');
  const selectedIndex=baseIndex+2;
