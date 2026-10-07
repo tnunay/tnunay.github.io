@@ -406,14 +406,16 @@ body:has(.project-detail) .main {
 
 .project-detail__facts h2 {
     margin: 0 0 13px;
+    letter-spacing: 0;
+    text-transform: none;
 }
 
 .project-detail__facts .project-team-group {
     margin: 20px 0 8px;
     color: var(--project-navy);
     font-size: 13px;
-    letter-spacing: .07em;
-    text-transform: uppercase;
+    letter-spacing: 0;
+    text-transform: none;
 }
 
 .project-detail__facts .project-team-group:first-of-type {
@@ -426,6 +428,56 @@ body:has(.project-detail) .main {
     color: #39475c;
     font-size: 14px;
     line-height: 1.5;
+}
+
+.project-institutions {
+    margin: -12px 0 28px;
+    padding: 20px 22px 22px;
+    border: 1px solid var(--project-line);
+    border-radius: 18px;
+    background: #fff;
+}
+
+.project-institutions__label {
+    margin: 0 0 14px;
+    color: var(--project-navy);
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+.project-institutions__grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.project-institutions__grid a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 88px;
+    padding: 14px;
+    border: 1px solid var(--project-line);
+    border-radius: 13px;
+    background: var(--project-soft);
+    box-shadow: none;
+    transition: border-color .2s ease, background .2s ease, transform .2s ease;
+}
+
+.project-institutions__grid a:hover {
+    transform: translateY(-2px);
+    border-color: #b7c6db;
+    background: #fff;
+}
+
+.project-institutions__grid img {
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    max-height: 54px;
+    object-fit: contain;
 }
 
 .project-detail__content {
@@ -622,15 +674,16 @@ body:has(.project-detail) .main {
 .project-detail__facts a,
 .project-people a {
     color: var(--project-blue);
-    text-decoration: underline;
-    text-decoration-color: transparent;
-    text-underline-offset: 3px;
-    transition: text-decoration-color .2s ease;
+    text-decoration: none;
+    box-shadow: none;
+    transition: color .2s ease;
 }
 
 .project-detail__facts a:hover,
 .project-people a:hover {
-    text-decoration-color: currentColor;
+    color: #1749b4;
+    text-decoration: none;
+    box-shadow: none;
 }
 
 @media (max-width: 780px) {
@@ -677,6 +730,10 @@ body:has(.project-detail) .main {
         border-left: 0;
     }
 
+    .project-institutions__grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
     .project-toc nav > ul {
         columns: 1;
     }
@@ -708,4 +765,5 @@ body:has(.project-detail) .main {
     .project-media-grid--two {
         grid-template-columns: 1fr;
     }
+
 }

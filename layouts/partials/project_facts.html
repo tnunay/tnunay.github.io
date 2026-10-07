@@ -1,7 +1,7 @@
 {{- $page := . -}}
 <section class="project-detail__facts" aria-label="Project team and funding">
   <div>
-    <h2>Researchers & institutions</h2>
+    <h2>Researchers</h2>
     {{- with $page.Params.lecturers }}
     <ul>
       {{- range . }}<li><strong>{{ with .scholar }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ end }}{{ .name }}{{ if .scholar }}</a>{{ end }}</strong>{{ with .role }}<span class="project-person-role">{{ . }}</span>{{ end }}{{ with .institution }}<span>{{ . }}</span>{{ end }}</li>{{ end }}
@@ -36,3 +36,15 @@
     <p>{{ $page.Params.funding | default "To be confirmed." }}</p>
   </div>
 </section>
+{{- with $page.Params.institution_logos }}
+<div class="project-institutions" aria-label="Involved institutions">
+  <p class="project-institutions__label">Involved institutions</p>
+  <div class="project-institutions__grid">
+    {{- range . }}
+    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" aria-label="Visit {{ .name }}">
+      <img src="{{ .logo | relURL }}" alt="{{ .name }} logo" loading="lazy">
+    </a>
+    {{- end }}
+  </div>
+</div>
+{{- end }}
