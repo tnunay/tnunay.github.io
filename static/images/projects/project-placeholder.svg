@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 638" role="img" aria-labelledby="title desc">
+  <title id="title">Future project placeholder</title>
+  <desc id="desc">An abstract grid with a plus symbol for a future research project.</desc>
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#edf2f8"/><stop offset="1" stop-color="#dce6f2"/></linearGradient></defs>
+  <rect width="1200" height="638" fill="url(#bg)"/>
+  <g fill="none" stroke="#9fb2ca" stroke-width="2" opacity=".45"><path d="M0 110h1200M0 220h1200M0 330h1200M0 440h1200M0 550h1200M150 0v638M300 0v638M450 0v638M600 0v638M750 0v638M900 0v638M1050 0v638"/></g>
+  <circle cx="600" cy="319" r="146" fill="#fff" stroke="#bfd0e2" stroke-width="4" stroke-dasharray="14 14"/>
+  <path d="M600 246v146M527 319h146" stroke="#356dd1" stroke-width="24" stroke-linecap="round"/>
+</svg>

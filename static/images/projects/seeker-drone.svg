@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 638" role="img" aria-labelledby="title desc">
+  <title id="title">Seeker drone placeholder illustration</title>
+  <desc id="desc">A stylized fixed-wing aerial vehicle above a mountainous horizon.</desc>
+  <defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#8fc7e8"/><stop offset="1" stop-color="#e8f3f5"/></linearGradient></defs>
+  <rect width="1200" height="638" fill="url(#sky)"/>
+  <circle cx="970" cy="105" r="62" fill="#fff6cb"/>
+  <path d="M0 470l185-132 126 82 170-166 152 158 153-105 194 151 220-110v290H0z" fill="#72899a"/>
+  <path d="M0 530l225-108 134 85 185-105 170 110 185-93 301 125v94H0z" fill="#40596c"/>
+  <g transform="translate(395 190) rotate(-8 200 100)" fill="#15263a">
+    <path d="M0 120l185-38L255 0h52l-36 79 166 41-4 30-168-13-55 87h-45l27-90L4 151z"/>
+    <path d="M190 93h78v55h-78z" fill="#2c70a6"/>
+  </g>
+  <path d="M120 165h230M850 210h190" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".5"/>
+</svg>

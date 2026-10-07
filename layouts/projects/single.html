@@ -1,0 +1,55 @@
+{{- define "main" }}
+<article class="project-detail">
+  <a class="project-back" href="{{ "projects/" | relURL }}">← All research projects</a>
+
+  <header class="project-detail__hero">
+    <div class="project-detail__copy">
+      <div class="project-detail__labels">
+        <span class="project-status project-status--{{ .Params.project_status | default "planned" | urlize }}">
+          {{ .Params.project_status | default "Planned" }}
+        </span>
+        {{- with .Params.period }}<span class="project-detail__period">{{ . }}</span>{{ end }}
+      </div>
+      {{- with .Params.project_code }}<p class="project-code">{{ . }}</p>{{ end }}
+      <h1>{{ .Title }}</h1>
+      <p class="project-detail__summary">{{ .Params.summary | default .Description }}</p>
+    </div>
+    {{- with .Params.cover.image }}
+    <div class="project-detail__media">
+      <img src="{{ . | relURL }}" alt="{{ $.Title }} project preview">
+    </div>
+    {{- end }}
+  </header>
+
+  <section class="project-detail__facts" aria-label="Project information">
+    <div>
+      <h2>Lecturers & institutions</h2>
+      {{- with .Params.lecturers }}
+      <ul>
+        {{- range . }}<li><strong>{{ .name }}</strong>{{ with .institution }}<span>{{ . }}</span>{{ end }}</li>{{ end }}
+      </ul>
+      {{- else }}<p>To be confirmed.</p>{{ end }}
+    </div>
+    <div>
+      <h2>Students</h2>
+      {{- with .Params.students }}
+      <ul>
+        {{- range . }}<li><strong>{{ .name }}</strong>{{ with .role }}<span>{{ . }}</span>{{ end }}</li>{{ end }}
+      </ul>
+      {{- else }}<p>To be confirmed.</p>{{ end }}
+    </div>
+    <div>
+      <h2>Source of fund</h2>
+      <p>{{ .Params.funding | default "To be confirmed." }}</p>
+    </div>
+  </section>
+
+  {{- if .Content }}
+  <div class="project-detail__content post-content">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+      {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+  </div>
+  {{- end }}
+</article>
+{{- end }}

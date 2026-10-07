@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 638" role="img" aria-labelledby="title desc">
+  <title id="title">BASSCAM-500 placeholder illustration</title>
+  <desc id="desc">A stylized camera and underwater imaging field.</desc>
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#102a43"/><stop offset="1" stop-color="#11758c"/></linearGradient><radialGradient id="beam"><stop stop-color="#b8f4ef" stop-opacity=".48"/><stop offset="1" stop-color="#b8f4ef" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1200" height="638" fill="url(#bg)"/>
+  <circle cx="800" cy="320" r="330" fill="url(#beam)"/>
+  <g opacity=".2" fill="none" stroke="#d4ffff"><circle cx="800" cy="320" r="220"/><circle cx="800" cy="320" r="270"/><circle cx="800" cy="320" r="320"/></g>
+  <g transform="translate(385 180)">
+    <rect width="430" height="275" rx="44" fill="#e7f2f4"/>
+    <rect x="48" y="-34" width="150" height="64" rx="18" fill="#b8d5da"/>
+    <circle cx="260" cy="138" r="104" fill="#153449" stroke="#b9fbff" stroke-width="15"/>
+    <circle cx="260" cy="138" r="67" fill="#1e8ca1"/>
+    <circle cx="260" cy="138" r="35" fill="#0c2135"/>
+    <circle cx="237" cy="114" r="14" fill="#d8ffff"/>
+    <circle cx="76" cy="85" r="20" fill="#ffbf69"/>
+  </g>
+  <path d="M0 520c250-80 410 40 620 0s397-25 580-65v183H0z" fill="#0c3349"/>
+</svg>

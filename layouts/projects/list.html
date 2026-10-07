@@ -1,0 +1,81 @@
+{{- define "main" }}
+{{- $projects := where .RegularPages "Params.research_project" true }}
+<section class="projects-dashboard">
+  <header class="projects-hero">
+    <div>
+      <p class="projects-eyebrow">Research portfolio</p>
+      <h1>{{ .Title }}</h1>
+      {{- with .Description }}<p class="projects-intro">{{ . }}</p>{{ end }}
+    </div>
+    <div class="projects-count" aria-label="Number of listed projects">
+      <strong>{{ len $projects }}</strong>
+      <span>projects</span>
+    </div>
+  </header>
+
+  {{- with .Content }}
+  <div class="projects-note">{{ . }}</div>
+  {{- end }}
+
+  <div class="projects-grid">
+    {{- range $projects.ByWeight }}
+    {{- $project := . }}
+    <article class="project-card{{ if .Params.placeholder }} project-card--placeholder{{ end }}">
+      <a class="project-card__link" href="{{ .RelPermalink }}" aria-label="View details for {{ .Title }}">
+        <div class="project-card__media">
+          {{- with .Params.cover.image }}
+          <img src="{{ . | relURL }}" alt="{{ $project.Title }} project preview" loading="lazy">
+          {{- end }}
+          <span class="project-status project-status--{{ .Params.project_status | default "planned" | urlize }}">
+            {{ .Params.project_status | default "Planned" }}
+          </span>
+          {{- with .Params.period }}<span class="project-period">{{ . }}</span>{{ end }}
+        </div>
+
+        <div class="project-card__body">
+          <div class="project-card__heading">
+            <div>
+              {{- with .Params.project_code }}<p class="project-code">{{ . }}</p>{{ end }}
+              <h2>{{ .Title }}</h2>
+            </div>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </div>
+
+          <p class="project-summary">{{ .Params.summary | default .Summary }}</p>
+
+          <dl class="project-facts">
+            <div>
+              <dt>Lecturers & institutions</dt>
+              <dd>
+                {{- with .Params.lecturers }}
+                <ul class="project-people">
+                  {{- range . }}
+                  <li><strong>{{ .name }}</strong>{{ with .institution }}<span>{{ . }}</span>{{ end }}</li>
+                  {{- end }}
+                </ul>
+                {{- else }}To be confirmed{{ end }}
+              </dd>
+            </div>
+            <div>
+              <dt>Students</dt>
+              <dd>
+                {{- with .Params.students }}
+                  {{- $studentCount := len . -}}
+                  {{ $studentCount }} {{ cond (eq $studentCount 1) "student" "students" }}
+                {{- else }}To be confirmed{{ end }}
+              </dd>
+            </div>
+            <div>
+              <dt>Source of fund</dt>
+              <dd>{{ .Params.funding | default "To be confirmed" }}</dd>
+            </div>
+          </dl>
+
+          <span class="project-card__cta">Explore project <span aria-hidden="true">→</span></span>
+        </div>
+      </a>
+    </article>
+    {{- end }}
+  </div>
+</section>
+{{- end }}
