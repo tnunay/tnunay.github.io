@@ -45,13 +45,14 @@
 
           <dl class="project-facts">
             <div>
-              <dt>Lecturers & institutions</dt>
+              <dt>Research team</dt>
               <dd>
                 {{- with .Params.lecturers }}
                 <ul class="project-people">
-                  {{- range . }}
+                  {{- range first 3 . }}
                   <li><strong>{{ .name }}</strong>{{ with .institution }}<span>{{ . }}</span>{{ end }}</li>
                   {{- end }}
+                  {{- if gt (len .) 3 }}<li class="project-people__more">+ {{ sub (len .) 3 }} more collaborators</li>{{ end }}
                 </ul>
                 {{- else }}To be confirmed{{ end }}
               </dd>
