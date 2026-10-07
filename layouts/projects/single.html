@@ -12,6 +12,7 @@
       </div>
       {{- with .Params.project_code }}<p class="project-code">{{ . }}</p>{{ end }}
       <h1>{{ .Title }}</h1>
+      {{- with .Params.full_name }}<p class="project-detail__full-name">{{ . }}</p>{{ end }}
       <p class="project-detail__summary">{{ .Params.summary | default .Description }}</p>
     </div>
     {{- with .Params.cover.image }}

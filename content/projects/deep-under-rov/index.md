@@ -7,6 +7,7 @@ project_status: "Ongoing"
 period: "2025–2026"
 summary: "A low-cost ROV and multi-modal mapping framework for safer, high-resolution documentation of underwater archaeological sites in Indonesia."
 description: "DEEP-UNDER ROV develops low-cost robotic, sensing, control, and 3D reconstruction methods for underwater archaeology."
+full_name: "Development of Experimental and Exploratory Photogrammetry for Supporting Underwater Archaeological Studies using Remotely Operated Vehicle"
 funding: "Institut Teknologi Bandung internal research funding — Riset ITB 2025 and Riset Dosen Muda ITB 2026"
 lecturers:
   - name: "Hilton Tnunay"
@@ -41,8 +42,6 @@ lecturers:
     institution: "HafenCity University Hamburg"
     scholar: "https://scholar.google.com/citations?user=yS69h-AAAAAJ&hl=en"
 current_students:
-  - name: "Anggraini Rizkita Puji"
-    role: "PhD student, FITB ITB"
   - name: "Wafi Abiyyu Yasin"
     role: "STEI ITB"
   - name: "Ibrahim Hanif Mulyana"
@@ -55,6 +54,8 @@ current_students:
     role: "STEI ITB"
   - name: "Adli Syauqi"
     role: "STEI ITB"
+  - name: "Anggraini Rizkita Puji"
+    role: "FITB ITB"
 graduated_students:
   - name: "Matthew Troy Putra"
     role: "STEI ITB"
@@ -77,7 +78,7 @@ disableAnchoredHeadings: false
 
 <aside class="project-announcement" aria-label="Upcoming field experiment">
   <span class="project-announcement__date">21–26 October 2026</span>
-  <p><strong>Upcoming field experiment at Pramuka Island.</strong> The DEEP-UNDER ROV team will deploy the platform for field testing, underwater data collection, and mapping experiments.</p>
+  <p><strong>Upcoming field experiment at Pramuka Island.</strong> We will deploy the platform for field testing, underwater data collection, and mapping experiments.</p>
 </aside>
 
 ## Project overview
@@ -138,7 +139,7 @@ The first four-degree-of-freedom prototype established the basic mechanical fram
 
 ### Coastal validation and initial visual SLAM
 
-Field validation at Pramuka Island demonstrated stable operation under real underwater pressure and environmental conditions at depths of up to 12 metres. The team also demonstrated camera trajectory estimation and sparse 3D reconstruction from underwater imagery.
+Field validation at Pramuka Island demonstrated stable operation under real underwater pressure and environmental conditions at depths of up to 12 metres. We also demonstrated camera trajectory estimation and sparse 3D reconstruction from underwater imagery.
 
 <div class="project-media-grid project-media-grid--three">
   <figure>
@@ -187,7 +188,7 @@ The current platform expands motion capability to six degrees of freedom and imp
 
 ### Control, estimation, SLAM, and reconstruction
 
-The team developed a Gazebo and ROS 2 simulator for vehicle testing, stereo-enhanced image-based visual servoing for stable image acquisition, and a visual-inertial Kalman estimator for vehicle velocity. A PINAX underwater camera model was integrated into a stereo visual-inertial SLAM pipeline to account for refraction, then evaluated through pool tests at Saraga.
+In this project, we developed a Gazebo and ROS 2 simulator for vehicle testing, stereo-enhanced image-based visual servoing for stable image acquisition, and a visual-inertial Kalman estimator for vehicle velocity. We integrated a PINAX underwater camera model into a stereo visual-inertial SLAM pipeline to account for refraction, then evaluated it through pool tests at Saraga.
 
 Visual-SLAM and Gaussian-splatting experiments used data from Saraga Pool and Pramuka Island, including reconstruction of an ADCP support frame. This stage connects mapping-aware vehicle motion, state estimation, SLAM, and dense scene reconstruction.
 
@@ -260,11 +261,3 @@ The field experiment scheduled for **21–26 October 2026** will test the curren
 ### Conference paper
 
 - [**“Stereo-Enhanced Image-Based Visual Servoing for Low-Cost Underwater Remotely Operated Vehicle”**](https://ieeexplore.ieee.org/abstract/document/11702318) — published in IEEE Xplore following presentation at the 2026 IEEE Asian Control Conference (ASCC) in Bali.
-
-### Workshop submission
-
-- A visual-inertial stereo-SLAM method incorporating the PINAX underwater camera model — submitted to the ROSE Workshop at IROS 2026.
-
-### Manuscript in preparation
-
-- A Q1 journal manuscript on the integrated underwater mapping research is in preparation as part of the 2026 project outputs.

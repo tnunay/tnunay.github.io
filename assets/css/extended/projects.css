@@ -373,6 +373,18 @@ body:has(.project-detail) .main {
     min-height: 360px;
 }
 
+.project-detail__full-name {
+    margin: 18px 0 0;
+    color: #344967;
+    font-size: 16px;
+    font-weight: 650;
+    line-height: 1.5;
+}
+
+.project-detail__full-name + .project-detail__summary {
+    margin-top: 12px;
+}
+
 .project-detail__facts {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
