@@ -41,7 +41,7 @@ lecturers:
     institution: "HafenCity University Hamburg"
     scholar: "https://scholar.google.com/citations?user=yS69h-AAAAAJ&hl=en"
 students:
-  - name: "Anggraini"
+  - name: "Anggraini Rizkita Puji"
     role: "PhD student, FITB ITB"
   - name: "Matthew Troy Putra"
     role: "STEI ITB"
@@ -212,7 +212,7 @@ Students from STEI and FITB ITB participate in the research and connect their un
 
 | Student | School or faculty |
 |---|---|
-| Anggraini | PhD student, FITB ITB |
+| Anggraini Rizkita Puji | PhD student, FITB ITB |
 | Matthew Troy Putra | STEI ITB |
 | Dwi Hadi Nugraha | FITB ITB |
 | Yayat Nurhidayat | STEI ITB |
