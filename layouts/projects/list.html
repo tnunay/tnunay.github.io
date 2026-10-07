@@ -62,10 +62,15 @@
             <div>
               <dt>Students</dt>
               <dd>
-                {{- with .Params.students }}
-                  {{- $studentCount := len . -}}
+                {{- if or .Params.current_students .Params.graduated_students }}
+                  {{- $studentCount := add (len (.Params.current_students | default slice)) (len (.Params.graduated_students | default slice)) -}}
                   {{ $studentCount }} {{ cond (eq $studentCount 1) "student" "students" }}
-                {{- else }}To be confirmed{{ end }}
+                {{- else }}
+                  {{- with .Params.students }}
+                    {{- $studentCount := len . -}}
+                    {{ $studentCount }} {{ cond (eq $studentCount 1) "student" "students" }}
+                  {{- else }}To be confirmed{{ end }}
+                {{- end }}
               </dd>
             </div>
             <div>

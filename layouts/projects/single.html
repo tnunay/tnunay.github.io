@@ -21,28 +21,16 @@
     {{- end }}
   </header>
 
-  <section class="project-detail__facts" aria-label="Project information">
-    <div>
-      <h2>Research team & institutions</h2>
-      {{- with .Params.lecturers }}
-      <ul>
-        {{- range . }}<li><strong>{{ with .scholar }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ end }}{{ .name }}{{ if .scholar }}</a>{{ end }}</strong>{{ with .role }}<span class="project-person-role">{{ . }}</span>{{ end }}{{ with .institution }}<span>{{ . }}</span>{{ end }}</li>{{ end }}
-      </ul>
-      {{- else }}<p>To be confirmed.</p>{{ end }}
-    </div>
-    <div>
-      <h2>Students</h2>
-      {{- with .Params.students }}
-      <ul>
-        {{- range . }}<li><strong>{{ .name }}</strong>{{ with .role }}<span>{{ . }}</span>{{ end }}</li>{{ end }}
-      </ul>
-      {{- else }}<p>To be confirmed.</p>{{ end }}
-    </div>
-    <div>
-      <h2>Source of fund</h2>
-      <p>{{ .Params.funding | default "To be confirmed." }}</p>
-    </div>
-  </section>
+  {{- if not .Params.team_in_content }}
+    {{- partial "project_facts.html" . }}
+  {{- end }}
+
+  {{- if and (.Param "showToc") .TableOfContents }}
+  <aside class="project-toc" aria-label="Table of contents">
+    <p class="project-toc__title">Contents</p>
+    {{ .TableOfContents }}
+  </aside>
+  {{- end }}
 
   {{- if .Content }}
   <div class="project-detail__content post-content">

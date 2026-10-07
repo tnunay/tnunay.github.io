@@ -1,0 +1,38 @@
+{{- $page := . -}}
+<section class="project-detail__facts" aria-label="Project team and funding">
+  <div>
+    <h2>Researchers & institutions</h2>
+    {{- with $page.Params.lecturers }}
+    <ul>
+      {{- range . }}<li><strong>{{ with .scholar }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ end }}{{ .name }}{{ if .scholar }}</a>{{ end }}</strong>{{ with .role }}<span class="project-person-role">{{ . }}</span>{{ end }}{{ with .institution }}<span>{{ . }}</span>{{ end }}</li>{{ end }}
+    </ul>
+    {{- else }}<p>To be confirmed.</p>{{ end }}
+  </div>
+  <div>
+    <h2>Students</h2>
+    {{- if or $page.Params.current_students $page.Params.graduated_students }}
+      {{- with $page.Params.current_students }}
+      <h3 class="project-team-group">Current students</h3>
+      <ul>
+        {{- range . }}<li><strong>{{ .name }}</strong>{{ with .role }}<span>{{ . }}</span>{{ end }}</li>{{ end }}
+      </ul>
+      {{- end }}
+      {{- with $page.Params.graduated_students }}
+      <h3 class="project-team-group">Graduated students</h3>
+      <ul>
+        {{- range . }}<li><strong>{{ .name }}</strong>{{ with .role }}<span>{{ . }}</span>{{ end }}</li>{{ end }}
+      </ul>
+      {{- end }}
+    {{- else }}
+      {{- with $page.Params.students }}
+      <ul>
+        {{- range . }}<li><strong>{{ .name }}</strong>{{ with .role }}<span>{{ . }}</span>{{ end }}</li>{{ end }}
+      </ul>
+      {{- else }}<p>To be confirmed.</p>{{ end }}
+    {{- end }}
+  </div>
+  <div>
+    <h2>Source of funds</h2>
+    <p>{{ $page.Params.funding | default "To be confirmed." }}</p>
+  </div>
+</section>
