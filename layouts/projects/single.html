@@ -26,7 +26,7 @@
       <h2>Research team & institutions</h2>
       {{- with .Params.lecturers }}
       <ul>
-        {{- range . }}<li><strong>{{ .name }}</strong>{{ with .institution }}<span>{{ . }}</span>{{ end }}</li>{{ end }}
+        {{- range . }}<li><strong>{{ with .scholar }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ end }}{{ .name }}{{ if .scholar }}</a>{{ end }}</strong>{{ with .role }}<span class="project-person-role">{{ . }}</span>{{ end }}{{ with .institution }}<span>{{ . }}</span>{{ end }}</li>{{ end }}
       </ul>
       {{- else }}<p>To be confirmed.</p>{{ end }}
     </div>

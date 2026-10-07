@@ -21,7 +21,8 @@
     {{- range $projects.ByWeight }}
     {{- $project := . }}
     <article class="project-card{{ if .Params.placeholder }} project-card--placeholder{{ end }}">
-      <a class="project-card__link" href="{{ .RelPermalink }}" aria-label="View details for {{ .Title }}">
+      <div class="project-card__link">
+        <a class="project-card__media-link" href="{{ .RelPermalink }}" aria-label="View details for {{ .Title }}">
         <div class="project-card__media">
           {{- with .Params.cover.image }}
           <img src="{{ . | relURL }}" alt="{{ $project.Title }} project preview" loading="lazy">
@@ -31,12 +32,13 @@
           </span>
           {{- with .Params.period }}<span class="project-period">{{ . }}</span>{{ end }}
         </div>
+        </a>
 
         <div class="project-card__body">
           <div class="project-card__heading">
             <div>
               {{- with .Params.project_code }}<p class="project-code">{{ . }}</p>{{ end }}
-              <h2>{{ .Title }}</h2>
+              <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
             </div>
             <span class="project-arrow" aria-hidden="true">↗</span>
           </div>
@@ -50,7 +52,7 @@
                 {{- with .Params.lecturers }}
                 <ul class="project-people">
                   {{- range first 3 . }}
-                  <li><strong>{{ .name }}</strong>{{ with .institution }}<span>{{ . }}</span>{{ end }}</li>
+                  <li><strong>{{ with .scholar }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ end }}{{ .name }}{{ if .scholar }}</a>{{ end }}</strong>{{ with .role }}<span class="project-person-role">{{ . }}</span>{{ end }}{{ with .institution }}<span>{{ . }}</span>{{ end }}</li>
                   {{- end }}
                   {{- if gt (len .) 3 }}<li class="project-people__more">+ {{ sub (len .) 3 }} more collaborators</li>{{ end }}
                 </ul>
@@ -72,9 +74,9 @@
             </div>
           </dl>
 
-          <span class="project-card__cta">Explore project <span aria-hidden="true">→</span></span>
+          <a class="project-card__cta" href="{{ .RelPermalink }}">Explore project <span aria-hidden="true">→</span></a>
         </div>
-      </a>
+      </div>
     </article>
     {{- end }}
   </div>
