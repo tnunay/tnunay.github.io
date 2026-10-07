@@ -1,5 +1,6 @@
 {{- define "main" }}
-{{- $projects := where .RegularPages "Params.research_project" true }}
+{{- $researchProjects := where .RegularPages "Params.research_project" true }}
+{{- $projects := where $researchProjects "Params.dashboard_hidden" "ne" true }}
 <section class="projects-dashboard">
   <header class="projects-hero">
     <div>

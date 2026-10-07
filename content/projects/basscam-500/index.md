@@ -2,6 +2,7 @@
 title: "BASSCAM-500"
 weight: 20
 research_project: true
+dashboard_hidden: true
 project_code: "Sensing & Imaging"
 project_status: "Ongoing"
 period: "Dates to be confirmed"

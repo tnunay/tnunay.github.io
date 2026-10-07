@@ -13,30 +13,30 @@ lecturers:
     role: "Project lead"
     institution: "School of Electrical Engineering and Informatics, Institut Teknologi Bandung"
     scholar: "https://scholar.google.com/citations?user=zcckBDUAAAAJ&hl=en"
-  - name: "Anggera Bayuwindra"
-    institution: "School of Electrical Engineering and Informatics, Institut Teknologi Bandung"
-    scholar: "https://scholar.google.com/citations?hl=en&user=9y_vKqsAAAAJ"
-  - name: "Indra Sihar"
-    institution: "School of Electrical Engineering and Informatics, Institut Teknologi Bandung"
-    scholar: "https://scholar.google.com/citations?hl=en&user=X3-jFMsAAAAJ"
   - name: "Gabriella Alodia"
     institution: "Faculty of Earth Sciences and Technology, Institut Teknologi Bandung"
     scholar: "https://scholar.google.com/scholar?q=%22Gabriella+Alodia%22"
-  - name: "Fickrie Muhammad"
-    institution: "Faculty of Earth Sciences and Technology, Institut Teknologi Bandung"
-    scholar: "https://scholar.google.com/scholar?q=%22Fickrie+Muhammad%22"
-  - name: "Poerbandono"
-    institution: "Faculty of Earth Sciences and Technology, Institut Teknologi Bandung"
-    scholar: "https://scholar.google.com/citations?hl=en&user=X8dIE6AAAAAJ"
   - name: "Ferryanto"
     institution: "Faculty of Mechanical and Aerospace Engineering, Institut Teknologi Bandung"
     scholar: "https://scholar.google.com/scholar?q=%22Ferryanto%22+%22Institut+Teknologi+Bandung%22"
+  - name: "Anggera Bayuwindra"
+    institution: "School of Electrical Engineering and Informatics, Institut Teknologi Bandung"
+    scholar: "https://scholar.google.com/citations?hl=en&user=9y_vKqsAAAAJ"
+  - name: "Fickrie Muhammad"
+    institution: "Faculty of Earth Sciences and Technology, Institut Teknologi Bandung"
+    scholar: "https://scholar.google.com/scholar?q=%22Fickrie+Muhammad%22"
+  - name: "Indra Sihar"
+    institution: "School of Electrical Engineering and Informatics, Institut Teknologi Bandung"
+    scholar: "https://scholar.google.com/citations?hl=en&user=X3-jFMsAAAAJ"
   - name: "Arnadi Murtiyoso"
     institution: "INSA Strasbourg"
     scholar: "https://scholar.google.com/citations?user=JoXowwQAAAAJ&hl=en"
   - name: "Harry Octavianus Sofian"
     institution: "Research Center for Archaeometry, BRIN"
     scholar: "https://scholar.google.com/citations?user=AoCsJoUAAAAJ&hl=en"
+  - name: "Poerbandono"
+    institution: "Faculty of Earth Sciences and Technology, Institut Teknologi Bandung"
+    scholar: "https://scholar.google.com/citations?hl=en&user=X8dIE6AAAAAJ"
   - name: "Harald Sternberg"
     institution: "HafenCity University Hamburg"
     scholar: "https://scholar.google.com/citations?user=yS69h-AAAAAJ&hl=en"
@@ -259,7 +259,7 @@ The field experiment scheduled for **21–26 October 2026** will test the curren
 
 ### Conference paper
 
-- **“Stereo-enhanced Image-based Visual Servoing for Low-cost U-ROV”** — accepted and presented at the 2026 IEEE Asian Control Conference (ASCC) in Bali.
+- [**“Stereo-Enhanced Image-Based Visual Servoing for Low-Cost Underwater Remotely Operated Vehicle”**](https://ieeexplore.ieee.org/abstract/document/11702318) — published in IEEE Xplore following presentation at the 2026 IEEE Asian Control Conference (ASCC) in Bali.
 
 ### Workshop submission
 

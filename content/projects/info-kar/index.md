@@ -2,6 +2,7 @@
 title: "INFO-KAR"
 weight: 30
 research_project: true
+dashboard_hidden: true
 project_code: "Information Systems"
 project_status: "Completed"
 period: "Dates to be confirmed"

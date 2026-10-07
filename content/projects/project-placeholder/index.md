@@ -2,6 +2,7 @@
 title: "Next Research Project"
 weight: 50
 research_project: true
+dashboard_hidden: true
 placeholder: true
 project_code: "Future entry"
 project_status: "Planned"

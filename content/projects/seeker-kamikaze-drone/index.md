@@ -2,6 +2,7 @@
 title: "Seeker Kamikaze Drone"
 weight: 40
 research_project: true
+dashboard_hidden: true
 project_code: "Autonomous Aerial Systems"
 project_status: "Completed"
 period: "Dates to be confirmed"
