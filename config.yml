@@ -75,10 +75,10 @@ params:
               url: posts/
             - name: Dive Planner
               url: dive-comp/
-            - name: Tags
-              url: tags/
-            - name: Archives
-              url: archive/
+            # - name: Tags
+            #   url: tags/
+            # - name: Archives
+            #   url: archive/
             # - name: Books
             #   url: books/
             # - name: Publications
