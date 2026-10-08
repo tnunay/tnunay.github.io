@@ -14,6 +14,9 @@
       <h1>{{ .Title }}</h1>
       {{- with .Params.full_name }}<p class="project-detail__full-name">{{ . }}</p>{{ end }}
       <p class="project-detail__summary">{{ .Params.summary | default .Description }}</p>
+      {{- with .Params.project_website }}
+      <a class="project-detail__website" href="{{ . }}" target="_blank" rel="noopener noreferrer">Official project website ↗</a>
+      {{- end }}
     </div>
     {{- with .Params.cover.image }}
     <div class="project-detail__media">

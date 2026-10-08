@@ -122,6 +122,108 @@ body:has(.project-detail) .main {
     box-shadow: none;
 }
 
+.project-detail__website {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 22px;
+    padding: 11px 17px;
+    border-radius: 999px;
+    background: var(--project-navy);
+    color: #fff;
+    box-shadow: none;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.project-detail__website:hover {
+    background: var(--project-blue);
+    color: #fff;
+}
+
+.project-overview-facts {
+    display: grid;
+    grid-template-columns: minmax(180px, .55fr) minmax(280px, 1.45fr);
+    gap: 1px;
+    margin: 30px 0 52px;
+    overflow: hidden;
+    border: 1px solid var(--project-line);
+    border-radius: 18px;
+    background: var(--project-line);
+}
+
+.project-overview-facts > div {
+    padding: 25px;
+    background: #fff;
+}
+
+.project-overview-facts span,
+.project-overview-facts strong {
+    display: block;
+}
+
+.project-overview-facts span,
+.project-external-callout span {
+    color: #52647d;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+
+.project-overview-facts strong {
+    margin-top: 8px;
+    color: var(--project-navy);
+    font-size: 16px;
+}
+
+.project-overview-facts p {
+    margin: 5px 0 0;
+    color: #66758b;
+    font-size: 13px;
+}
+
+.project-institutions--overview {
+    margin: 0 0 42px;
+}
+
+.project-external-callout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 44px;
+    padding: 28px 30px;
+    border-radius: 18px;
+    background: var(--project-navy);
+    color: #fff;
+}
+
+.project-external-callout strong {
+    display: block;
+    max-width: 620px;
+    margin-top: 7px;
+    line-height: 1.5;
+}
+
+.project-external-callout span {
+    color: #a9b9cf;
+}
+
+.project-external-callout a {
+    flex: 0 0 auto;
+    padding: 11px 17px;
+    border-radius: 999px;
+    background: #fff;
+    color: var(--project-navy);
+    box-shadow: none;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.project-external-callout a:hover {
+    background: #dfeafe;
+}
+
 .project-card__media-link {
     display: block;
 }
@@ -736,6 +838,15 @@ body:has(.project-detail) .main {
 
     .project-toc nav > ul {
         columns: 1;
+    }
+
+    .project-overview-facts {
+        grid-template-columns: 1fr;
+    }
+
+    .project-external-callout {
+        align-items: flex-start;
+        flex-direction: column;
     }
 }
 

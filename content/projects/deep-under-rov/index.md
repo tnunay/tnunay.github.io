@@ -9,268 +9,53 @@ summary: "A low-cost ROV and multi-modal mapping framework for safer, high-resol
 description: "DEEP-UNDER ROV develops low-cost robotic, sensing, control, and 3D reconstruction methods for underwater archaeology."
 full_name: "Development of Experimental and Exploratory Photogrammetry for Supporting Underwater Archaeological Studies using Remotely Operated Vehicle"
 funding: "Institut Teknologi Bandung internal research funding — Riset ITB 2025 and Riset Dosen Muda ITB 2026"
-institution_logos:
-  - name: "Institut Teknologi Bandung"
-    logo: "/images/institutions/itb.png"
-    url: "https://itb.ac.id/"
-  - name: "INSA Strasbourg"
-    logo: "/images/institutions/insa-strasbourg.svg"
-    url: "https://www.insa-strasbourg.fr/"
-  - name: "Badan Riset dan Inovasi Nasional"
-    logo: "/images/institutions/brin.png"
-    url: "https://brin.go.id/"
-  - name: "HafenCity University Hamburg"
-    logo: "/images/institutions/hcu-hamburg.svg"
-    url: "https://www.hcu-hamburg.de/"
-lecturers:
-  - name: "Hilton Tnunay"
-    role: "Project lead"
-    institution: "School of Electrical Engineering and Informatics, Institut Teknologi Bandung"
-    scholar: "https://scholar.google.com/citations?user=zcckBDUAAAAJ&hl=en"
-  - name: "Gabriella Alodia"
-    institution: "Faculty of Earth Sciences and Technology, Institut Teknologi Bandung"
-    scholar: "https://scholar.google.com/scholar?q=%22Gabriella+Alodia%22"
-  - name: "Ferryanto"
-    institution: "Faculty of Mechanical and Aerospace Engineering, Institut Teknologi Bandung"
-    scholar: "https://scholar.google.com/scholar?q=%22Ferryanto%22+%22Institut+Teknologi+Bandung%22"
-  - name: "Anggera Bayuwindra"
-    institution: "School of Electrical Engineering and Informatics, Institut Teknologi Bandung"
-    scholar: "https://scholar.google.com/citations?hl=en&user=9y_vKqsAAAAJ"
-  - name: "Fickrie Muhammad"
-    institution: "Faculty of Earth Sciences and Technology, Institut Teknologi Bandung"
-    scholar: "https://scholar.google.com/scholar?q=%22Fickrie+Muhammad%22"
-  - name: "Indra Sihar"
-    institution: "School of Electrical Engineering and Informatics, Institut Teknologi Bandung"
-    scholar: "https://scholar.google.com/citations?hl=en&user=X3-jFMsAAAAJ"
-  - name: "Arnadi Murtiyoso"
-    institution: "INSA Strasbourg"
-    scholar: "https://scholar.google.com/citations?user=JoXowwQAAAAJ&hl=en"
-  - name: "Harry Octavianus Sofian"
-    institution: "Research Center for Archaeometry, BRIN"
-    scholar: "https://scholar.google.com/citations?user=AoCsJoUAAAAJ&hl=en"
-  - name: "Poerbandono"
-    institution: "Faculty of Earth Sciences and Technology, Institut Teknologi Bandung"
-    scholar: "https://scholar.google.com/citations?hl=en&user=X8dIE6AAAAAJ"
-  - name: "Harald Sternberg"
-    institution: "HafenCity University Hamburg"
-    scholar: "https://scholar.google.com/citations?user=yS69h-AAAAAJ&hl=en"
-current_students:
-  - name: "Wafi Abiyyu Yasin"
-    role: "STEI ITB"
-  - name: "Ibrahim Hanif Mulyana"
-    role: "STEI ITB"
-  - name: "Yayat Nurhidayat"
-    role: "STEI ITB"
-  - name: "Muhammad Aqeel Ghani"
-    role: "STEI ITB"
-  - name: "Rusydi Noor Abdurrahman"
-    role: "STEI ITB"
-  - name: "Adli Syauqi"
-    role: "STEI ITB"
-  - name: "Anggraini Rizkita Puji"
-    role: "FITB ITB"
-graduated_students:
-  - name: "Matthew Troy Putra"
-    role: "STEI ITB"
-  - name: "Dwi Hadi Nugraha"
-    role: "FITB ITB"
-  - name: "Riswandha Mashuri"
-    role: "STEI ITB"
+project_website: "https://deep-under-rov.github.io/"
+team_in_content: true
 cover:
   image: "/images/projects/deep-under-rov/headline-rov.jpeg"
-team_in_content: true
-showToc: true
+showToc: false
 disableAnchoredHeadings: false
 ---
 
-## Team and funding
-
-{{< project-facts >}}
-
-## Announcement
-
-<aside class="project-announcement" aria-label="Upcoming field experiment">
-  <span class="project-announcement__date">21–26 October 2026</span>
-  <p><strong>Upcoming field experiment at Pramuka Island.</strong> We will deploy the platform for field testing, underwater data collection, and mapping experiments.</p>
-</aside>
-
 ## Project overview
 
-DEEP-UNDER ROV stands for **Development of Experimental and Exploratory Photogrammetry for Supporting Underwater Archaeological Studies using Remotely Operated Vehicle**. Led by **Hilton Tnunay** at the School of Electrical Engineering and Informatics, Institut Teknologi Bandung, the project develops an affordable robotic platform and mapping methodology for documenting submerged cultural heritage in Indonesia's shallow tropical waters.
+DEEP-UNDER ROV develops an affordable underwater robotic platform and multi-modal mapping workflow for documenting submerged cultural heritage in Indonesia's shallow tropical waters. The project integrates robotics, control, computer vision, hydrography, photogrammetry, acoustics, mechanics, and archaeology.
 
-The research addresses three practical constraints in underwater archaeology: risks to human divers, the technical difficulty of collecting reliable data underwater, and the high cost of conventional survey systems. It combines robotics, control, computer vision, hydrography, photogrammetry, acoustics, mechanics, and archaeology.
-
-### Expected outputs
-
-- A reusable ROV platform and software for sensing, state estimation, mapping-oriented control, SLAM, and 3D reconstruction
-- Calibrated multi-modal sensing methods and experimental datasets from controlled and field trials
-- Geometrically consistent 3D models suitable for archaeological documentation and interpretation
-- International conference and journal publications, including a Q1 journal manuscript in preparation
-- Practical guidance for lower-cost underwater archaeological mapping
-
-### Long-term direction
-
-The project is progressing from a visual-mapping prototype toward a robust multi-modal archaeological survey platform. The longer-term direction is to support digital twins, increasingly autonomous missions, and eventually coordinated multi-vehicle surveys of underwater cultural heritage.
-
-## Research focus
-
-### 2025 — Platform feasibility
-
-The first year established the feasibility of a low-cost ROV assembled from components available through the domestic supply chain. The work integrated underwater cameras and pressure sensing, tested the mechanical, electronic, and sensing systems, developed an initial visual-SLAM pipeline, and validated the platform in controlled and coastal environments.
-
-The 2025 trials also identified the key mapping limitations: illumination changes, turbidity, vehicle motion, viewing geometry, and the absence of tightly integrated inertial and acoustic sensing. Those findings shaped the second-year programme.
-
-### 2026 — Mapping quality and robustness
-
-The second year shifts the emphasis from platform feasibility to reliable data acquisition and archaeologically interpretable reconstruction. The work is organised around four connected themes:
-
-- **Hardware:** mechanical design, waterproofing, sealing, cable management, power switching, leak detection, and six-degree-of-freedom actuation
-- **Control:** vehicle modelling, simulation, visual servoing, trajectory tracking, and active-perception control for stable, overlapping imagery
-- **Estimation and SLAM:** stereo vision, inertial sensing, depth and acoustic integration, Kalman-based estimation, underwater camera modelling, and visual-inertial SLAM
-- **3D reconstruction:** photogrammetry, point clouds, Gaussian splatting, acoustic constraints, and reconstruction-quality assessment
-
-## Progress and milestones
-
-<span class="project-milestone-label">September 2025</span>
-
-### SUPRI-ROV v1.0 and feasibility testing
-
-The first four-degree-of-freedom prototype established the basic mechanical frame, propulsion arrangement, onboard electronics, cameras, pressure sensing, and tethered operator workflow. Laboratory and pool tests confirmed that the low-cost platform could support underwater inspection and visual-mapping research.
-
-<div class="project-media-grid project-media-grid--two">
-  <figure>
-    <img src="/images/projects/deep-under-rov/prototype.png" alt="SUPRI-ROV version 1 prototype on a workbench">
-    <figcaption>SUPRI-ROV v1.0, completed in September 2025.</figcaption>
-  </figure>
-  <figure>
-    <img src="/images/projects/deep-under-rov/pool-test.png" alt="DEEP-UNDER ROV undergoing a pool test">
-    <figcaption>Controlled pool testing of the integrated platform.</figcaption>
-  </figure>
+<div class="project-overview-facts">
+  <div>
+    <span>Active period</span>
+    <strong>2025–2026</strong>
+  </div>
+  <div>
+    <span>Source of funds</span>
+    <strong>Institut Teknologi Bandung internal research funding</strong>
+    <p>Riset ITB 2025 and Riset Dosen Muda ITB 2026</p>
+  </div>
 </div>
 
-<span class="project-milestone-label">Late 2025</span>
+## Institution partners
 
-### Coastal validation and initial visual SLAM
-
-Field validation at Pramuka Island demonstrated stable operation under real underwater pressure and environmental conditions at depths of up to 12 metres. We also demonstrated camera trajectory estimation and sparse 3D reconstruction from underwater imagery.
-
-<div class="project-media-grid project-media-grid--three">
-  <figure>
-    <img src="/images/projects/deep-under-rov/field-image.png" alt="Underwater image acquired during coastal testing">
-    <figcaption>Coastal imagery used to evaluate underwater visibility and feature quality.</figcaption>
-  </figure>
-  <figure>
-    <img src="/images/projects/deep-under-rov/visual-features.png" alt="Underwater image with extracted visual features">
-    <figcaption>Feature extraction for underwater localisation.</figcaption>
-  </figure>
-  <figure>
-    <img src="/images/projects/deep-under-rov/slam-reconstruction.png" alt="Estimated camera trajectory and sparse point cloud">
-    <figcaption>Initial visual-SLAM trajectory and sparse reconstruction.</figcaption>
-  </figure>
+<div class="project-institutions project-institutions--overview" aria-label="Partner institutions">
+  <div class="project-institutions__grid">
+    <a href="https://itb.ac.id/" target="_blank" rel="noopener noreferrer" aria-label="Visit Institut Teknologi Bandung">
+      <img src="/images/institutions/itb.png" alt="Institut Teknologi Bandung logo" loading="lazy">
+    </a>
+    <a href="https://www.insa-strasbourg.fr/" target="_blank" rel="noopener noreferrer" aria-label="Visit INSA Strasbourg">
+      <img src="/images/institutions/insa-strasbourg.svg" alt="INSA Strasbourg logo" loading="lazy">
+    </a>
+    <a href="https://brin.go.id/" target="_blank" rel="noopener noreferrer" aria-label="Visit Badan Riset dan Inovasi Nasional">
+      <img src="/images/institutions/brin.png" alt="Badan Riset dan Inovasi Nasional logo" loading="lazy">
+    </a>
+    <a href="https://www.hcu-hamburg.de/" target="_blank" rel="noopener noreferrer" aria-label="Visit HafenCity University Hamburg">
+      <img src="/images/institutions/hcu-hamburg.svg" alt="HafenCity University Hamburg logo" loading="lazy">
+    </a>
+  </div>
 </div>
 
-<span class="project-milestone-label">January 2026</span>
-
-### SUPRI-ROV v2.0 hardware refinement
-
-The second four-degree-of-freedom iteration refined the enclosure, sealing, component layout, and electrical integration. This version provided the transition from the initial feasibility platform to a system designed for repeated experiments.
-
-<figure class="project-wide-media">
-  <img src="/images/projects/deep-under-rov/progress-2026/supri-rov-v2.png" alt="SUPRI-ROV version 2 on a testing bench">
-  <figcaption>SUPRI-ROV v2.0 during system integration in January 2026.</figcaption>
-</figure>
-
-<span class="project-milestone-label">May 2026</span>
-
-### SUPRI-ROV v3.0 and six-degree-of-freedom operation
-
-The current platform expands motion capability to six degrees of freedom and improves sealing, cable management, power switching, leak detection, fibre-optic communication, and ground-control integration. These mechanical and electrical changes support more stable image acquisition and a wider range of survey trajectories.
-
-<div class="project-media-grid project-media-grid--two">
-  <figure>
-    <img src="/images/projects/deep-under-rov/headline-rov.jpeg" alt="DEEP-UNDER ROV team preparing the vehicle for field operation">
-    <figcaption>Field preparation of the current DEEP-UNDER ROV platform.</figcaption>
-  </figure>
-  <figure>
-    <img src="/images/projects/deep-under-rov/progress-2026/supri-rov-v3.jpeg" alt="SUPRI-ROV version 3 operating underwater">
-    <figcaption>SUPRI-ROV v3.0, the current six-degree-of-freedom platform.</figcaption>
-  </figure>
+<div class="project-external-callout">
+  <div>
+    <span>Official project website</span>
+    <strong>Explore the team, research focus, progress, documentation, and publications.</strong>
+  </div>
+  <a href="https://deep-under-rov.github.io/" target="_blank" rel="noopener noreferrer">Visit DEEP-UNDER ROV ↗</a>
 </div>
-
-<span class="project-milestone-label">June–August 2026</span>
-
-### Control, estimation, SLAM, and reconstruction
-
-In this project, we developed a Gazebo and ROS 2 simulator for vehicle testing, stereo-enhanced image-based visual servoing for stable image acquisition, and a visual-inertial Kalman estimator for vehicle velocity. We integrated a PINAX underwater camera model into a stereo visual-inertial SLAM pipeline to account for refraction, then evaluated it through pool tests at Saraga.
-
-Visual-SLAM and Gaussian-splatting experiments used data from Saraga Pool and Pramuka Island, including reconstruction of an ADCP support frame. This stage connects mapping-aware vehicle motion, state estimation, SLAM, and dense scene reconstruction.
-
-<figure class="project-wide-media">
-  <img src="/images/projects/deep-under-rov/progress-2026/system-architecture.png" alt="SUPRI-ROV vehicle and ground-control system architecture">
-  <figcaption>Vehicle, fibre-optic communication, and ground-control architecture.</figcaption>
-</figure>
-
-<figure class="project-wide-media">
-  <img src="/images/projects/deep-under-rov/3d-reconstruction.jpeg" alt="Three-dimensional point-cloud reconstruction of an underwater structure">
-  <figcaption>Three-dimensional point-cloud reconstruction produced from underwater imagery.</figcaption>
-</figure>
-
-<span class="project-milestone-label">October–November 2026</span>
-
-### Pramuka Island mission and project completion
-
-The field experiment scheduled for **21–26 October 2026** will test the current platform and mapping workflow at Pramuka Island. The programme includes underwater data collection, positioning and reconstruction experiments, and preparation of the evidence needed for the final 2026 research outputs and journal manuscript.
-
-## Documentation
-
-### Simulation and progress-report videos
-
-<div class="project-video-grid">
-  <figure>
-    <video controls preload="metadata">
-      <source src="/images/projects/deep-under-rov/progress-2026/supri-simulator.mp4" type="video/mp4">
-    </video>
-    <figcaption>SUPRI-ROV simulation in Gazebo and ROS 2.</figcaption>
-  </figure>
-  <figure>
-    <video controls preload="metadata">
-      <source src="/images/projects/deep-under-rov/progress-2026/visual-slam-reconstruction.mp4" type="video/mp4">
-    </video>
-    <figcaption>Visual-SLAM reconstruction experiment.</figcaption>
-  </figure>
-  <figure>
-    <video controls preload="metadata">
-      <source src="/images/projects/deep-under-rov/progress-2026/gaussian-splatting-reconstruction.mp4" type="video/mp4">
-    </video>
-    <figcaption>Gaussian-splatting reconstruction experiment.</figcaption>
-  </figure>
-</div>
-
-### Field, SLAM, and reconstruction recordings
-
-<div class="project-video-grid">
-  <figure>
-    <video controls preload="metadata" poster="/images/projects/deep-under-rov/field-videos/slam-rov1-poster.jpg">
-      <source src="/images/projects/deep-under-rov/field-videos/slam-rov1.mp4" type="video/mp4">
-    </video>
-    <figcaption>ROV visual-SLAM processing with tracked features, estimated trajectory, and sparse mapping results.</figcaption>
-  </figure>
-  <figure>
-    <video controls preload="metadata" poster="/images/projects/deep-under-rov/field-videos/stereo-slam-poster.jpg">
-      <source src="/images/projects/deep-under-rov/field-videos/stereo-slam.mp4" type="video/mp4">
-    </video>
-    <figcaption>Stereo visual-SLAM processing with rectified underwater views and reconstructed vehicle trajectory.</figcaption>
-  </figure>
-  <figure>
-    <video controls preload="metadata" poster="/images/projects/deep-under-rov/field-videos/splatting-poster.jpg">
-      <source src="/images/projects/deep-under-rov/field-videos/splatting.mp4" type="video/mp4">
-    </video>
-    <figcaption>Underwater scene rendered through the Gaussian-splatting reconstruction workflow.</figcaption>
-  </figure>
-</div>
-
-## Publications
-
-### Conference paper
-
-- [**“Stereo-Enhanced Image-Based Visual Servoing for Low-Cost Underwater Remotely Operated Vehicle”**](https://ieeexplore.ieee.org/abstract/document/11702318) — published in IEEE Xplore following presentation at the 2026 IEEE Asian Control Conference (ASCC) in Bali.
